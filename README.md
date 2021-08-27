@@ -1,4 +1,4 @@
-# Resources and Information for MIS3640 - Problem Solving and Software Design
+# Resources and Information for OIM3640 - Problem Solving and Software Design
 ### Class Information:
 
 - [Syllabus](syllabus_2021fall.md)
