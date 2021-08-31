@@ -5,7 +5,7 @@
 - Class Time: Tuesday, Thursday
   - Section 01: 4:00PM - 5:30PM, Horn Computer Center 169
   - Section 02: 6:00PM - 7:30PM, Horn Computer Center 170
-- (Backup) Online Class Platform: Zoom (check Canvas for Zoom link and password)
+- (Backup) Online Class Platform: Webex (check Canvas for Webex link)
 
 
 ## Instructor Information
