@@ -127,7 +127,7 @@ Your final project website may be implemented using whatever platform you like. 
 - Due: Friday, 12/10
 - Project code is worth 35% of the project grade (see code rubric on the Code Grading Rubric)
 
-Project code must be submitted via GitHub. You must include a **README** describing how to run your code, including any required dependencies (e.g. libraries to install) and any input files. [Here](https://github.com/kautukkundan/Awesome-Profile-README-templates) is a collection of awesome README templates to get some ideas.
+Project code must be submitted via GitHub. You must include a **README** describing how to run your code, including any required dependencies (e.g. libraries to install) and any input files. [Here](https://github.com/kautukkundan/Awesome-Profile-README-templates) is a collection of awesome README templates to get some ideas. [Here](https://readme.so/) is a website that helps you create a README.
 
 Proper documentation is important to your final submission, and one way to ensure you have adequate docstrings is to generate documentation from them. You can do this using [pydoc](https://docs.python.org/3.9/library/pydoc.html). If you want to generate truly beautiful documentation, check out [Sphinx](https://www.sphinx-doc.org/en/master/) (the tool used to generate the Python documentation).
 
