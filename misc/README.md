@@ -34,7 +34,7 @@
 - [Pysheet](https://www.pythonsheets.com/) 
 - [Python Cheatsheet](https://www.pythoncheatsheet.org/): Basic cheatsheet for Python mostly based on the book written by Al Sweigart, [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/). 
 - [Learn Python in y minutes](https://learnxinyminutes.com/docs/python/): provides a whirlwind tour of the Python language. The guide is especially useful if you're coming in with previous software development experience and want to quickly grasp how the language is structured.
-
+- [Scientific Python cheatsheet](https://ipgp.github.io/scientific_python_cheat_sheet/)
 
 ## MOOCs
 - [Codecademy](https://www.codecademy.com/catalog/language/python): learn Python by building web apps and manipulating data; interactive tutorial sequence.
@@ -49,27 +49,37 @@
 - [Python Tutor](http://www.pythontutor.com/): an excellent way to actually visualize how the interpreter actually reads and executes your code.
 - [DiffChecker](https://www.diffchecker.com/): compares two sets of text and shows you which lines are different.
 - [Python debugging in VS Code](https://code.visualstudio.com/docs/python/debugging)
+- [What does debugging a program look like?](https://jvns.ca/blog/2019/06/23/a-few-debugging-resources/)
+- [How to debug small programs](https://ericlippert.com/2014/03/05/how-to-debug-small-programs/)
+- [Debugging guide](https://uchicago-cs.github.io/debugging-guide/)
+- [Problem solving skills](https://ryanstutorials.net/problem-solving-skills/)
 
 ## Other Q&A
 - [Stack Overflow](http://stackoverflow.com/questions/tagged/python): a large Q&A forum for programming concepts (not just Python). 
-- [LearnPython Subreddit](https://www.reddit.com/r/learnpython/)
-- [Python Subreddit](https://www.reddit.com/r/python)
+- [r/LearnPython](https://www.reddit.com/r/learnpython/)
+- [r/Python](https://www.reddit.com/r/python)
 - [The Python IAQ: Infrequently Answered Questions](http://norvig.com/python-iaq.html) by Peter Norvig
 
 ## More practice problems
-- [Python Challenge](http://www.pythonchallenge.com/): a series of puzzles you can try to test your Python abilities.
+
+### Beginner friendly: 
+- [Exercism](https://exercism.io/): beginner friendly and difficulty levels are marked
 - [Coding Bat](http://codingbat.com/python): problems you can solve within an online interpreter.
-- [CheckIO](https://py.checkio.org/): learn Python by exploring a game world
-- [CodeChef](https://www.codechef.com/)
-- [Codewars](https://www.codewars.com/?language=python): improve your skills by training on real code challenges.
-- [Project Euler](https://projecteuler.net/): additional programming challenges you can try once your Python knowledge becomes stronger; problems are sorted by increasing difficulty.
-- [hackerrank Python challenges](https://www.hackerrank.com/domains/python)
-- [Google's Python Exercises](https://developers.google.com/edu/python/exercises/basic)
-- [LeetCode](https://leetcode.com/)
 - [Practice Python](http://www.practicepython.org/): beginner friendly and difficulty levels are marked
 - [Edabit](https://edabit.com/): beginner friendly and difficulty levels are marked
-- [Exercism](https://exercism.io/): beginner friendly and difficulty levels are marked
+- [r/dailyprogrammer](https://www.reddit.com/r/dailyprogrammer/)
+
+### More challenging:
+- [Python Challenge](http://www.pythonchallenge.com/): a series of puzzles you can try to test your Python abilities.
+- [Codewars](https://www.codewars.com/?language=python): improve your skills by training on real code challenges.
 - [Advent of Code](https://adventofcode.com/): really fun, more challenging.
+- [Project Euler](https://projecteuler.net/): additional programming challenges you can try once your Python knowledge becomes stronger; problems are sorted by increasing difficulty.
+
+### Game-based challenges:
+- [CheckIO](https://py.checkio.org/): learn Python by exploring a game world
+- [CodeChef](https://www.codechef.com/)
+- [Code Combat](https://codecombat.com/)
+- [Codingame](https://www.codingame.com/start)
 
 ## Coding competitions
 - [Google Code Jam](https://codingcompetitions.withgoogle.com/codejam)
@@ -79,9 +89,12 @@
 - [Codechef](https://www.codechef.com/)
 - [LeetCode Contest](https://leetcode.com/contest/)
 - [Sphere Online Judge (SPOJ)](https://www.spoj.com/)
+- [hackerrank Python challenges](https://www.hackerrank.com/domains/python)
 
 
 ## Advanced stuff
+- [Beyond the Basic Stuff with Python](https://nostarch.com/beyond-basic-stuff-python)
+- [Fluent Python, 2nd Edition](https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/)
 - [Practical Business Python](http://pbpython.com/)
 - [Writing your first Django app](https://docs.djangoproject.com/en/3.2/intro/tutorial01/): for Django developers.
 - [Python for Programmers](https://wiki.python.org/moin/BeginnersGuide/Programmers)
@@ -92,6 +105,9 @@
 - [Awesome Python](https://github.com/vinta/awesome-python): a curated list of awesome Python frameworks, libraries, software and resources.
 - [Full Stack Python - Best Python Videos](https://www.fullstackpython.com/best-python-videos.html)
 - [stackoverflow - Hidden features of Python](http://stackoverflow.com/questions/101268/hidden-features-of-python)
+- [Classic Computer Science Problems in Python](https://livebook.manning.com/book/classic-computer-science-problems-in-python/about-this-book/) — deepens your knowledge of problem solving techniques from the realm of computer science by challenging you with time-tested scenarios, exercises, and algorithms
+- [GitHub: Collection of design patterns and idioms](https://github.com/faif/python-patterns)
+- [Architecture Patterns with Python](https://www.cosmicpython.com/book/preface.html) — Enabling TDD, DDD, and Event-Driven Microservices
 
 
 ## Python style and example programs
@@ -100,16 +116,24 @@
 - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html): style guidelines for Google code.
 - [The Elements of Python Style](https://github.com/amontalenti/elements-of-python-style)
 
-It can be helpful to read existing code to get a better idea of how to organize your own programs. Here are some good examples of short Python programs, with explanations:
-
-- [Solving Every Sudoku Puzzle](http://norvig.com/sudoku.html)
-- [How to Write a Spelling Corrector](http://norvig.com/spell-correct.html)
-- [Natural language processing](http://norvig.com/ngrams/)
-- [Python Cookbook](http://shop.oreilly.com/product/0636920027072.do)
-
 ## Python Podcasts
 
 - [Talk Python to Me](https://talkpython.fm/)
 - [Podcast.__init__](https://www.pythonpodcast.com/)
 - [Python Bytes](https://pythonbytes.fm/)
 - [The Real Python Podcast](https://realpython.com/podcasts/rpp/)
+
+
+## Python Videos
+- [Top 10 Must-Watch PyCon Talks](https://realpython.com/must-watch-pycon-talks/)
+- [pyvideo](https://pyvideo.org/)
+- [Must-watch videos about Python](https://github.com/s16h/py-must-watch)
+
+
+## Recommended Code to Read
+It can be helpful to read existing code to get a better idea of how to organize your own programs. Here are some good examples of short Python programs, with explanations:
+
+- [Solving Every Sudoku Puzzle](http://norvig.com/sudoku.html)
+- [How to Write a Spelling Corrector](http://norvig.com/spell-correct.html)
+- [Natural language processing](http://norvig.com/ngrams/)
+- [Python Cookbook](http://shop.oreilly.com/product/0636920027072.do)
