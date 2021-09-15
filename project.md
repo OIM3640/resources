@@ -62,6 +62,8 @@ You should push this proposal to your project GitHub repository. I recommend you
 6. **Risks**: What do you view as the biggest risks to the success of this project?
 7. **Additional Course Content**: What are some topics that we might cover in class that you think would be especially helpful for your project?
 
+Read for fun: [150+ Pitch Deck Examples From the Most Successful Startups](https://www.pitchdeckhunt.com).
+
 
 
 ### 4.2 Design Review
@@ -140,4 +142,4 @@ Make sure that your code gives appropriate attribution to external resources use
 We will meet for a demo session of your final projects. This session is for everyone to share what they've created, and will not be evaluated.
 
 ---
-*updated: 9/5/2021*
+*updated: 9/15/2021*
