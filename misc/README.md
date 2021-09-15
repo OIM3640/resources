@@ -20,6 +20,7 @@
 - [Python Crash Course](https://ehmatthes.github.io/pcc_2e/regular_index/): well written and nicely organized.
 - [Invent Your Own Computer Games with Python](https://inventwithpython.com/invent4thed/): Develop your Python skills by making games or hacking ciphers. Another great book for self-study.
 - [Python for You and Me](https://pymbook.readthedocs.io/en/latest/): Simple and clear. This is a great book for absolute newcomers, or to keep as a quick reference as you get used to the language. The latest version is Python 3.
+- [How to Think Like a Computer Scientist](https://runestone.academy/runestone/books/published/thinkcspy/index.html): Interactive Edition
 - [Writing Idiomatic Python](https://www.jeffknupp.com/writing-idiomatic-python-ebook/): Focused on not just getting the code to work, but how to write it in a really "Pythonic" way.
 - [Fluent Python](https://github.com/fluentpython): All python3, and focused on getting the advanced details right. Good place to go once you've got the basics.
 - [Problem Solving with Algorithms and Data Structures](https://runestone.academy/runestone/books/published/pythonds/index.html)
@@ -119,7 +120,7 @@
 ## Python Podcasts
 
 - [Talk Python to Me](https://talkpython.fm/)
-- [Podcast.__init__](https://www.pythonpodcast.com/)
+- [Podcast.\_\_init\_\_](https://www.pythonpodcast.com/)
 - [Python Bytes](https://pythonbytes.fm/)
 - [The Real Python Podcast](https://realpython.com/podcasts/rpp/)
 
