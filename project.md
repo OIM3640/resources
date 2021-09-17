@@ -25,6 +25,7 @@ From now until the end of the semester you will be working with a team of studen
   - [Project Based Learning (Python)](https://github.com/tuvtran/project-based-learning#python)
   - [What to automate](https://www.reddit.com/r/learnpython/comments/k5k1h0/what_do_you_automate_with_python_at_home/)
   - [Python projects for beginners](https://beginnerpythonprojects.com/)
+  - [Python-Mini-Projects](https://github.com/Python-World/python-mini-projects)
 
 ---
 
@@ -142,4 +143,4 @@ Make sure that your code gives appropriate attribution to external resources use
 We will meet for a demo session of your final projects. This session is for everyone to share what they've created, and will not be evaluated.
 
 ---
-*updated: 9/15/2021*
+*updated: 9/17/2021*
