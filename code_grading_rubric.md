@@ -1,12 +1,13 @@
 # Code Grading Rubric
 
-Each assignment should be graded on each of 3 dimensions: ***Functionality***, ***Documentation*** and ***Style***. The final assignment grade will be based on a weighted average of each of these three grades with weights as follows: 
+Each assignment should be graded on each of 3 dimensions: ***Functionality***, ***Documentation*** and ***Style*** and one ***"WOW!"*** factor. The final assignment grade will be based on a weighted average of each of these grades with weights as follows: 
 
 |   Dimension   | Weight |
 | :-----------: | :----: |
 | Functionality |  60%   |
 | Documentation |  20%   |
-|     Style     |  20%   |
+|     Style     |  18%   |
+|      WOW!     |   2%   |
 
 
 ---
@@ -16,13 +17,16 @@ Each assignment should be graded on each of 3 dimensions: ***Functionality***, *
 - For open-ended assignments the code must be easy to run without modification and implement all of the required functionality.
 ### **Documentation**:
 - **All** functions are commented with appropriate *docstrings*. 
+- Anyone can figure out what your program does _just_ by reading your comments. 
 - For open-ended assignments there is a **README** file discussing how to run the program and what it is supposed to do.
-
 ### **Style**: 
 - The program exhibits effective modular design. 
 - The code does not have unnecessary cut and paste code or magic numbers. 
 - Variable and function names are sensibly chosen.
 - The code mostly follows the style recommended by [PEP 8](https://www.python.org/dev/peps/pep-0008/).
+### ***WOW!***:
+- This is reserved for solutions that absolutely blow us away.
+- Your code goes above and beyond the assignment requirements.
 
 ---
 ## ⭐⭐⭐⭐
@@ -89,3 +93,6 @@ Each assignment should be graded on each of 3 dimensions: ***Functionality***, *
 ---
 ## 0️
 - No submission.
+
+
+_updated: 09/28/2021_
