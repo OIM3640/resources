@@ -48,7 +48,7 @@ From now until the end of the semester you will be working with a team of studen
 ## 4. Project Activities / Deliverables 
 
 ### 4.1 Project Proposal
-- Due: 10/05
+- Due: 10/13
 - The project proposal is worth **10%** of the project grade.
 
 You should come to class with a document that describes the main idea of your project. We will have about 10 minutes to meet with each team, so we ask that you come to the meeting without your laptop, but with a printed version of your document. You should designate one of the two team members to take notes. 
@@ -143,4 +143,4 @@ Make sure that your code gives appropriate attribution to external resources use
 We will meet for a demo session of your final projects. This session is for everyone to share what they've created, and will not be evaluated.
 
 ---
-*updated: 9/17/2021*
+*updated: 9/30/2021*
