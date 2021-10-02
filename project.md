@@ -24,6 +24,7 @@ From now until the end of the semester you will be working with a team of studen
   - [13 Project Ideas for Intermediate Python Developers](https://realpython.com/intermediate-python-project-ideas/).
   - [Project Based Learning (Python)](https://github.com/tuvtran/project-based-learning#python)
   - [What to automate](https://www.reddit.com/r/learnpython/comments/k5k1h0/what_do_you_automate_with_python_at_home/)
+  - [70+ Python Projects For Beginners, Intermediate & Advanced Developers](https://www.theinsaneapp.com/2021/06/list-of-python-projects-with-source-code-and-tutorials.html)
   - [Python projects for beginners](https://beginnerpythonprojects.com/)
   - [Python-Mini-Projects](https://github.com/Python-World/python-mini-projects)
 
@@ -143,4 +144,4 @@ Make sure that your code gives appropriate attribution to external resources use
 We will meet for a demo session of your final projects. This session is for everyone to share what they've created, and will not be evaluated.
 
 ---
-*updated: 9/30/2021*
+*updated: 10/02/2021*
