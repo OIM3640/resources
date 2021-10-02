@@ -69,6 +69,7 @@
 - [Practice Python](http://www.practicepython.org/): beginner friendly and difficulty levels are marked
 - [Edabit](https://edabit.com/): beginner friendly and difficulty levels are marked
 - [r/dailyprogrammer](https://www.reddit.com/r/dailyprogrammer/)
+- [Code Golf](https://code.golf/) 
 
 ### More challenging:
 - [Python Challenge](http://www.pythonchallenge.com/): a series of puzzles you can try to test your Python abilities.
