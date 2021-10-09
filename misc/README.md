@@ -36,6 +36,7 @@
 - [Python Cheatsheet](https://www.pythoncheatsheet.org/): Basic cheatsheet for Python mostly based on the book written by Al Sweigart, [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/). 
 - [Learn Python in y minutes](https://learnxinyminutes.com/docs/python/): provides a whirlwind tour of the Python language. The guide is especially useful if you're coming in with previous software development experience and want to quickly grasp how the language is structured.
 - [Scientific Python cheatsheet](https://ipgp.github.io/scientific_python_cheat_sheet/)
+-[ Programming-Idioms](https://programming-idioms.org/cheatsheet/Python)
 
 ## MOOCs
 - [Codecademy](https://www.codecademy.com/catalog/language/python): learn Python by building web apps and manipulating data; interactive tutorial sequence.
