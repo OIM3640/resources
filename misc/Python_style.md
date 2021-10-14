@@ -106,7 +106,7 @@ Program Python like a pro! Code in the right-hand column better to employers and
 	</td>
     <td >
     	<code>for i, c in enumerate(s):</code>
-		<br><code>&nbsp;&nbsp;&nbsp;&nbsp;do something with i and s[i]</code>
+		<br><code>&nbsp;&nbsp;&nbsp;&nbsp;do something with i and c</code>
 	</td>
   </tr>
 </table>
