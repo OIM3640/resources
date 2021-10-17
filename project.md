@@ -27,6 +27,7 @@ From now until the end of the semester you will be working with a team of studen
   - [70+ Python Projects For Beginners, Intermediate & Advanced Developers](https://www.theinsaneapp.com/2021/06/list-of-python-projects-with-source-code-and-tutorials.html)
   - [Python projects for beginners](https://beginnerpythonprojects.com/)
   - [Python-Mini-Projects](https://github.com/Python-World/python-mini-projects)
+  - [45 Fun (and Unique) Python Project Ideas for Easy Learning](https://www.dataquest.io/blog/python-projects-for-beginners/)
 
 ---
 
@@ -144,4 +145,4 @@ Make sure that your code gives appropriate attribution to external resources use
 We will meet for a demo session of your final projects. This session is for everyone to share what they've created, and will not be evaluated.
 
 ---
-*updated: 10/02/2021*
+*updated: 10/06/2021*
