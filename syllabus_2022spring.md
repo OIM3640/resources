@@ -54,7 +54,7 @@ There are no required texts for his course. All course material will be presente
 ## Software
 
 At your earliest convenience, download and install the following software:
-* Python 3.10.2. Go to https://www.python.org/downloads/release/python-3102/. Click "Windows installer (64-bit)". After downloading, follow the instruction to finish installation. On the first screen of installation, **enable the "Add Python 3.10 to PATH" option.** If you forget this step, uninstall Python in Settings and reinstall. 
+* Python 3.10.1. Go to https://www.python.org/downloads/release/python-3101/. Click "Windows installer (64-bit)". After downloading, follow the instruction to finish installation. On the first screen of installation, **enable the "Add Python 3.10 to PATH" option.** If you forget this step, uninstall Python in Settings and reinstall. 
 * Visual Studio Code (free). Go to https://code.visualstudio.com/ . Click the "Download for Windows (Stable Build)". After downloading, follow the instruction to finish installation.
 * GitHub desktop (free). Go to https://desktop.github.com/ . Click "Download for Windows (64bit)". After downloading, follow the instruction to finish installation. You also need to create an account in GitHub website (https://github.com/). 
 
