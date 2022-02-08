@@ -12,6 +12,9 @@
 
 - Instructor: Dr. Zhi Li
 - E-mail: [zli@babson.edu](mailto:zli@babson.edu)
+- Office Hours:
+  - IN-PERSON: Tuesday, Thursday 6:15PM-7PM, Babson 326
+  - ONLINE: Webex by appointment
 
 ## Communication
 
