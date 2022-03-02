@@ -36,7 +36,7 @@ def find_long_words():
 
 def has_no_e(word):
     """
-    returns True if the given word doesn’t have the letter "e" in it
+    returns True if the given word doesn't have the letter "e" in it
     """
     pass
 
