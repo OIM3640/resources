@@ -1,4 +1,4 @@
-# OIM3640 Problem Solving and Software Design - 2022 Spring - Syllabus
+# OIM3640 Problem Solving and Software Design - 2022 Fall - Syllabus
 
 
 ## Datetime and Address
