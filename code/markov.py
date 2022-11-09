@@ -1,5 +1,6 @@
 import sys
 import random
+from unicodedata import category
 
 # global variables
 suffix_map = {}  # map from prefixes to a list of suffixes
@@ -14,13 +15,31 @@ def process_file(filename, order=2):
 
     returns: map from prefix to list of possible suffixes.
     """
-    fp = open(filename)
+    fp = open(filename, encoding='utf8')
+
     skip_gutenberg_header(fp)
 
+    # strippables = string.punctuation + string.whitespace
+    # via: https://stackoverflow.com/questions/60983836/complete-set-of-punctuation-marks-for-python-not-just-ascii
+
+    strippables = ''.join(
+        [chr(i) for i in range(sys.maxunicode) if category(chr(i)).startswith("P")]
+    )
+
     for line in fp:
-        if not line.startswith('*** END OF THIS PROJECT'):
-            for word in line.rstrip().split():
-                process_word(word, order)
+        if line.startswith('*** END OF THIS PROJECT'):
+            break
+
+        line = line.replace('-', ' ')
+        line = line.replace(
+            chr(8212), ' '
+        )  # Unicode 8212 is the HTML decimal entity for em dash
+
+        for word in line.split():
+            # remove punctuation and convert to lowercase
+            word = word.strip(strippables)
+            word = word.lower()
+            process_word(word, order)
 
 
 def skip_gutenberg_header(fp):
@@ -91,17 +110,11 @@ def shift(t, word):
     return t[1:] + (word,)
 
 
-def main(script, filename='data/Pride and Prejudice.txt', n=50, order=2):
-    try:
-        n = int(n)
-        order = int(order)
-    except ValueError:
-        print('Usage: %d filename [# of words] [prefix length]' % script)
-    else:
-        process_file(filename, order)
-        random_text(n)
-        print()
+def main():
+    filename = 'data/Pride and Prejudice.txt'
+    process_file(filename, 2)
+    random_text(100)
 
 
 if __name__ == '__main__':
-    main(*sys.argv)
+    main()
