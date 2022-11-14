@@ -27,6 +27,7 @@
 - [A Byte of Python](https://python.swaroopch.com/): now it is using Python 3
 - [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/): This handcrafted guide exists to provide both novice and expert Python developers a best practice handbook for the installation, configuration, and usage of Python on a daily basis.
 - [Introduction to Programming with Python](https://opentechschool.github.io/python-beginners/en/index.html): goes over the basic syntax and control structures in Python. The free book has numerous code examples to go along with each topic.
+- More resources - [A curated list of resources about Python in Education](https://github.com/quobit/awesome-python-in-education)
 
 ## Cheat Sheets
 - One-page Python 3 cheat sheet [Python 3 Cheat Sheet](Python3_Cheat_Sheet.pdf)
