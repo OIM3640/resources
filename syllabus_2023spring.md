@@ -32,7 +32,7 @@ If you need help outside of class and office hours, use Slack/email to schedule 
   - What: Course Slack channel
   - Used for: debugging help, clarifications, real-time discussion and random chat.
 
-## Learning Goal
+## Course Description
 
 This course is an introduction to Python programming language, designed for students with little or no prior programming experience. Python is a popular, open-source, multi-paradigm, general-purpose programming language, with a clear and readable syntax and high-level data types. It is easy for beginners to learn, yet widely used in various scientific and business fields, particularly for data exploration. Throughout this course, students will learn about key Python concepts such as data types, control flow, object-oriented programming, and data analysis. The course material will include examples and problem sets drawn from a range of areas, including text processing, web scraping, and data analytics. Additionally, the course will also cover web development using the Flask framework, which is a lightweight web application framework for Python. This will allow students to create interactive web applications and websites with Python, and will give them an understanding of how to interact with web servers and clients.
 
@@ -47,7 +47,7 @@ This course is an introduction to Python programming language, designed for stud
 - Create basic unit tests to ensure code quality and functionality
 - Develop a deeper understanding and appreciation for the software development process 
 - Acquire knowledge about latest development tools such as VSCode, Git/GitHub and more
-- Understand the Flask framework and how it can be used to create web applications, and the role of routing and templating in web development.
+- Understand the Flask framework and how it can be used to create web applications, and the role of routing and templating in web development
 - Understand the basics of how the internet works and how web applications function in this context
 - Utilize basic data analytics techniques to gain business insight.
 
@@ -102,7 +102,7 @@ Throughout the course, we will be engaging in various hands-on exercises provide
 
 ## Quizzes
 
-Throughout the course, there will be multiple quizzes to assess student's understanding of the material covered. These quizzes will be in-class programming problems. Most quizzes will be announced beforehand. Each quiz will be worth 2 or 3 times the value of an exercise, depending on the level of difficulty and the number of problems. It is important to note that no make-up quizzes will be given, unless you have a valid medical excuse. Missing a quiz without a valid excuse will result in a grade of zero for that quiz. We encourage you to attend every class, and reach out to the instructor if you have any questions or concerns about a quiz.
+Throughout the course, there will be multiple quizzes to assess student's understanding of the material covered. These quizzes will be in-class programming problems. Most quizzes will be announced beforehand. Each quiz will be worth 2 to 4 times the value of an exercise, depending on the level of difficulty and the number of problems. It is important to note that no make-up quizzes will be given, unless you have a valid medical excuse. Missing a quiz without a valid excuse will result in a grade of zero for that quiz. We encourage you to attend every class, and reach out to the instructor if you have any questions or concerns about a quiz.
 
 ## Assignments: 
 
