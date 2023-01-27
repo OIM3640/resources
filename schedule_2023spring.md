@@ -31,9 +31,9 @@
 |    24     | 4/18  | Data Anatlytics using Python            |                    |                           |
 |    25     | 4/20  | Advanced Features                       |                    |                           |
 |    26     | 4/25  | Project Presentation                    |                    |                           |
-|           | 5/02  |                                         | **Due**: Project   |                           |
+|           | 4/29  |                                         | **Due**: Project   |                           |
 
 
 **Notice:** For information on deadlines and quiz times, please refer to the Canvas website. Please note that the schedule provided here is subject to change and is for tentative planning purposes only.
 
-*updated: 1/10/2023*
+*updated: 1/27/2023*
