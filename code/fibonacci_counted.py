@@ -1,18 +1,20 @@
-def fib(n):
+def fibonacci(n):
     """
     an intuitive version of fibonacci
     """
     global number_fib_calls
+    if 'number_fib_calls' not in globals():
+        number_fib_calls = 0
     number_fib_calls += 1
-    if n == 1:
+    if n == 0:
         return 1
-    elif n == 2:
-        return 2
+    elif n == 1:
+        return 1
     else:
-        return fib(n - 1) + fib(n - 2)
+        return fibonacci(n - 1) + fibonacci(n - 2)
 
 
-known = {1: 1, 2: 2}
+known = {0: 1, 1: 1}
 
 
 def fib_efficient(n):
@@ -20,6 +22,8 @@ def fib_efficient(n):
     a "memori version of fibonacci
     """
     global number_fib_calls
+    if 'number_fib_calls' not in globals():
+        number_fib_calls = 0
     number_fib_calls += 1
     if n in known:
         return known[n]
@@ -29,13 +33,17 @@ def fib_efficient(n):
         return ans
 
 
-number_fib_calls = 0
-fib_args = 10
+def main():
+    fib_args = 10
+    global number_fib_calls
+    number_fib_calls = 0
+    print(f'The {fib_args}th Fibonacci number is {fibonacci(fib_args)}.')
+    print('# of function calls:', number_fib_calls)
 
-print(fib(fib_args))
-print('function calls', number_fib_calls)
+    number_fib_calls = 0
+    print(f'The {fib_args}th Fibonacci number is {fib_efficient(fib_args)}.')
+    print('# of function calls:', number_fib_calls)
 
-number_fib_calls = 0
 
-print(fib_efficient(fib_args))
-print('function calls', number_fib_calls)
+if __name__ == '__main__':
+    main()
