@@ -1,5 +1,7 @@
 import random
 import string
+import sys
+from unicodedata import category
 
 
 def process_file(filename, skip_header):
@@ -16,13 +18,21 @@ def process_file(filename, skip_header):
     if skip_header:
         skip_gutenberg_header(fp)
 
-    strippables = string.punctuation + string.whitespace
+    # strippables = string.punctuation + string.whitespace
+    # via: https://stackoverflow.com/questions/60983836/complete-set-of-punctuation-marks-for-python-not-just-ascii
+
+    strippables = ''.join(
+        [chr(i) for i in range(sys.maxunicode) if category(chr(i)).startswith("P")]
+    )
 
     for line in fp:
         if line.startswith('*** END OF THIS PROJECT'):
             break
 
         line = line.replace('-', ' ')
+        line = line.replace(
+            chr(8212), ' '
+        )  # Unicode 8212 is the HTML decimal entity for em dash
 
         for word in line.split():
             # word could be 'Sussex.'
