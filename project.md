@@ -39,7 +39,7 @@ From now until the end of the semester you will be working with a team of studen
 
 ### Requirements
 - Your team should consist of no more than two students, although you may opt to work individually if working remotely with others is proving challenging. 
-- Please create a new **public** GitHub repository for your team project, with one team member as the creator and the other team member(s) as contributors. 
+- Please create a new **public** GitHub repository for your team project, with one team member as the creator and the other team member(s) as contributors. **Submit the URL of the project GitHub repository to Canvas.**
 - (Optional) You are advised to establish a Slack channel within our Slack class workspace for easier project communication.
 - Your team should schedule a meeting with the professor, or email or message the professor about potential project ideas.
   
@@ -59,7 +59,7 @@ From now until the end of the semester you will be working with a team of studen
 
 You should come to class with a document that describes the main idea of your project. We will have about 10 minutes to meet with each team, so we ask that you come to the meeting without your laptop, but with a printed version of your document. You should designate one of the two team members to take notes. 
 
-You also need to upload this proposal to your project GitHub repository using [markdown format](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). Your proposal should contain seven parts, as specified below. The document need not be very long, but the more detail you include, the better feedback we can provide for your team:
+You also need to commit and push this proposal to your project GitHub repository using [markdown format](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). Your proposal should contain seven parts, as specified below. The document need not be very long, but the more detail you include, the better feedback we can provide for your team:
 
 1. **The Big Idea**: What is the main idea of your project? What topics will you explore and what will you accomplish? Describe your minimum viable product (MVP) and your stretch goal.
 2. **Learning Objectives**: Since this is a team project, you may want to articulate both shared and individual learning goals.
