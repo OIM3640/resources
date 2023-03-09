@@ -39,7 +39,8 @@ From now until the end of the semester you will be working with a team of studen
 
 ### Requirements
 - Your team should consist of no more than two students, although you may opt to work individually if working remotely with others is proving challenging. 
-- Please create a new **public** GitHub repository for your team project, with one team member as the creator and the other team member(s) as contributors. **Submit the URL of the project GitHub repository to Canvas.**
+- Please create a new **public** GitHub repository for your team project, with one team member as the creator and the other team member(s) as contributors. **Everyone in the team needs to submit the URL of the project GitHub repository to Canvas.**
+- At the beginning of the `README.md` file, please list the names of all team members.
 - (Optional) You are advised to establish a Slack channel within our Slack class workspace for easier project communication.
 - Your team should schedule a meeting with the professor, or email or message the professor about potential project ideas.
   
@@ -57,9 +58,7 @@ From now until the end of the semester you will be working with a team of studen
 - Due: 3/30
 - The project proposal is worth **12%** of the project grade.
 
-You should come to class with a document that describes the main idea of your project. We will have about 10 minutes to meet with each team, so we ask that you come to the meeting without your laptop, but with a printed version of your document. You should designate one of the two team members to take notes. 
-
-You also need to commit and push this proposal to your project GitHub repository using [markdown format](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). Your proposal should contain seven parts, as specified below. The document need not be very long, but the more detail you include, the better feedback we can provide for your team:
+Your proposal should contain seven parts, as specified below. The document need not be very long, but the more detail you include, the better feedback we can provide for your team:
 
 1. **The Big Idea**: What is the main idea of your project? What topics will you explore and what will you accomplish? Describe your minimum viable product (MVP) and your stretch goal.
 2. **Learning Objectives**: Since this is a team project, you may want to articulate both shared and individual learning goals.
@@ -68,6 +67,10 @@ You also need to commit and push this proposal to your project GitHub repository
 5. **Collaboration Plan**: How will you collaborate with your teammates on this project? Will you divide tasks and then incorporate them separately? Will you undertake a comprehensive pair program? Explain how you'll ensure effective team collaboration. This may also entail information on any software development methodologies you anticipate using (e.g. agile development). Be sure to clarify why you've picked this specific organizational structure.
 6. **Risks and Limitations**: What do you believe is the most significant threat to this project's success?
 7. **Additional Course Content**: What topics do you believe will be beneficial to your project?
+ 
+The proposal must be written using [markdown format](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). You need to commit and push this proposal to your project GitHub repository. Everyone needs to submit the URL of the proposal to Canvas for grading purposes.
+
+You should also come to class with a printed version of this proposal. We will have about 10 minutes to meet with each team. You should designate one of the two team members to take notes.
 
 For extra reading: [150+ Pitch Deck Examples From the Most Successful Startups](https://www.pitchdeckhunt.com).
 
