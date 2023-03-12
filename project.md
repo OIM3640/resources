@@ -47,7 +47,7 @@ From now until the end of the semester you will be working with a team of studen
 ### Tips for Team Formation
 
 - Work with people with whom you **share a common interest**, rather than solely working with friends, for best results. We will help with this part of team formation.
-- Work with people that want to **devote similar amounts of time to the project.** For instance, if you want to devote your life to making the best most awesomest Software Design project EVAR, you should perhaps team up with others with comparable ambition!
+- Work with people that want to **devote similar amounts of time to the project.** For instance, if you want to devote your life to making the best most awesomest Software Design project EVER, you should perhaps team up with others with comparable ambition!
 - Work with people that **envision a similar style of work on the project.** For instance, if you want to pair-program the entire project, but your peers want to divide the labor and work independently, this probably isn't the greatest setup.
 
 ---
@@ -68,7 +68,7 @@ Your proposal should contain seven parts, as specified below. The document need 
 6. **Risks and Limitations**: What do you believe is the most significant threat to this project's success?
 7. **Additional Course Content**: What topics do you believe will be beneficial to your project?
  
-The proposal must be written using [markdown format](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). You need to commit and push this proposal to your project GitHub repository. Everyone needs to submit the URL of the proposal to Canvas for grading purposes.
+The proposal must be written using [markdown format](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). We recommend checking out [https://markdown-it.github.io](https://markdown-it.github.io) if you need more help with markdown syntax. You need to commit and push this proposal to your project GitHub repository. Everyone needs to submit the URL of the proposal to Canvas for grading purposes.
 
 You should also come to class with a printed version of this proposal. We will have about 10 minutes to meet with each team. You should designate one of the two team members to take notes.
 
@@ -151,4 +151,4 @@ Make sure that your code gives appropriate attribution to external resources use
 We will meet for a demo session of your final projects. It is an opportunity for everyone to share their final projects, and it will not be a part of the evaluation.
 
 ---
-*updated: 3/08/2023*
+*updated: 3/12/2023*
