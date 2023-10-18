@@ -1,27 +1,39 @@
 """
-Four suspects; one of them is a thief. In interrogation
-    John said: I am not the thief.
-    Paul said: George is the thief.
-    George said: It must be Ringo.
-    Ringo said: George is lying.
+Four individuals are suspected of theft, but only one of them is the actual thief. During an interrogation, they made the following statements:
 
-Among them, three are telling the truth while one is lying.
-Could you find out who is the thief?
+    John: "I am not the thief."
+    Paul: "George is the thief."
+    George: "It must be Ringo."
+    Ringo: "George is lying."
 
+An informant has revealed that among these four suspects, three are telling the truth, and one is lying. Can you determine who the actual thief is based on these statements?
 """
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 suspects = ["John", "Paul", "George", "Ringo"]
+
 for real_theif in suspects:
-    if (
-        sum(
-            [
-                "John" != real_theif,
-                "George" == real_theif,
-                "Ringo" == real_theif,
-                "Ringo" != real_theif,
-            ]
-        )
-        == 3
-    ):
+    statements = [
+        "John" != real_theif,
+        "George" == real_theif,
+        "Ringo" == real_theif,
+        "Ringo" != real_theif,
+    ]
+    if sum(statements) == 3:
         print(real_theif)
