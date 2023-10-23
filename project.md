@@ -58,7 +58,7 @@ From now until the end of the semester you will be working with a team of studen
 
 ### 4.1 Project Proposal
 
-- Due: 11/03
+- Due: 11/10
 - The project proposal is worth **12%** of the project grade.
 
 Your proposal should contain seven parts, as specified below. The document need not be very long, but the more detail you include, the better feedback we can provide for your team:
@@ -154,4 +154,4 @@ Make sure that your code gives appropriate attribution to external resources use
 We will meet for a demo session of your final projects. It is an opportunity for everyone to share their final projects, and it will not be a part of the evaluation. This is not mandatory.
 
 ---
-*updated: 10/18/2023*
+*updated: 10/23/2023*
