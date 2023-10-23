@@ -137,7 +137,7 @@ There are many successful formats for a project website, but you should consider
 Your final project website may be implemented using whatever platform you like. You can continue to use [GitHub Pages](https://pages.github.com/), or explore other options like [Netlify](https://www.netlify.com/pricing/), [Vercel](https://vercel.com/pricing) and [Cloudflare Pages](https://pages.cloudflare.com/).
 
 ### 4.6 Code Submission
-- Due: 11/08
+- Due: 12/09
 - Project code is worth 35% of the project grade. Please refer to the Code Grading Rubric for more details.
   
 Project code must be submitted to GitHub. In case there are environmental variables that are ignored in the GitHub, please send an email to the professor to provide the necessary information.
