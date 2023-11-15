@@ -1,5 +1,5 @@
 import csv
-from urllib.request import Request, urlopen
+import urllib.request
 from bs4 import BeautifulSoup
 
 
@@ -13,8 +13,8 @@ def download_page(url):
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
     }
-    request = Request(url, headers=headers)
-    return urlopen(request)
+    request = urllib.request.Request(url, headers=headers)
+    return urllib.request.urlopen(request)
 
 
 # print(download_page(DOWNLOAD_URL).read())
@@ -26,7 +26,7 @@ def parse_html(html):
     """
     soup = BeautifulSoup(html, features="html.parser")
     # print(soup.prettify())
-    movie_list = soup.find("ul", attrs={"class": "compact-list-view"})
+    movie_list = soup.find("ul", attrs={"class": "ipc-metadata-list"})
     print(movie_list)
     top_250 = []
     for movie_item in movie_list.find_all("li"):
@@ -53,7 +53,7 @@ def main():
     # with open("data/imdb_top250.csv", "w", encoding="utf-8", newline="") as f:
     #     writer = csv.writer(f)
 
-    #     fields = ("name", "year")
+    #     fields = ("title", "year")
     #     writer.writerow(fields)
 
     #     html = download_page(url)
