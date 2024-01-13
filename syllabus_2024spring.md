@@ -1,12 +1,10 @@
-# OIM3640 Problem Solving and Software Design - 2023 Fall - Syllabus
+# OIM3640 Problem Solving and Software Design - 2024 Spring - Syllabus
 
 
 ## Datetime and Address
-- Class Time: **Monday**, **Wednesday**
-  - Section 01: 9:45AM - 11:15AM, Babson 203
-  - Section 02: 3:00PM - 4:30PM, Horn Computer Center 164
+- Class Time: **Tuesday**, **Thursday**
+  - Section 02: 3:00PM- 4:30PM, Horn Computer Center 163
 - (Backup) Online Class Platform: Webex (check Canvas for Webex link)
-
 
 ## Instructor Information
 
@@ -14,8 +12,8 @@
 - E-mail: [zli@babson.edu](mailto:zli@babson.edu)
 - Office Hours:
   - IN-PERSON: 
-    - Monday: 11:30AM - 12:30PM, Babson Hall 216D
-    - Wednesday: 4:45PM - 5:30PM, Babson Hall 216D
+    - Tuesday: 4:45PM - 5:30PM, Babson Hall 216D
+    - Thursday: 1:15PM - 2:15PM, Babson Hall 216D
   - ONLINE: Webex by appointment
 
 ## Communication
@@ -63,13 +61,13 @@ This course does not require any specific textbooks. All course materials will b
 ## Software
 
 At your earliest convenience, download and install the following software:
-* [Python ](https://www.python.org/downloads/)(latest version)
-  
-    **Important Note**: During the initial installation process, please make sure to select the option to **"Add Python 3.11 to PATH."** Failure to do so will result in the need to uninstall and reinstall Python.
-* [Visual Studio Code](https://code.visualstudio.com/)
+* [Python](https://www.python.org/downloads/)(latest version):
+
+    **Important Note**: During the initial installation process, please make sure to select the option to **"Add Python 3.12 to PATH."** Failure to do so will result in the need to uninstall and reinstall Python.
+* [Visual Studio Code](https://code.visualstudio.com/):
 
     Throughout the course, you may be asked or suggested to install various VSCode extensions to aid in your learning of Python and programming in general. These extensions may improve your coding experience, debugging, and help you make your code more readable. 
-* [GitHub Desktop](https://desktop.github.com/)
+* [GitHub Desktop](https://desktop.github.com/):
 
     You need to create an account on [GitHub website](https://github.com/) using your school-affiliated email address.
 
