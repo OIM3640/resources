@@ -11,13 +11,13 @@
 
 
 ## Textbooks/Tutorials (mostly online and free)
-- [Learn Python 3 the Hard Way](https://learnpythonthehardway.org/python3/): a very good and free online textbook.
+- [Python Crash Course, 3rd edition](https://nostarch.com/python-crash-course-3rd-edition): well written and nicely organized.
 - [Think Python](https://greenteapress.com/wp/think-python-2e/): by Allen Downey. This book offers a very "computer science"-style introduction to Python. 
 - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/): Great book for self-study, by Al Sweigart.
+- [Practical Python Programming](https://dabeaz-course.github.io/practical-python/): A course by David Beazley
 - [Dive Into Python](https://www.diveintopython3.net/): another survey of Python syntax, datatypes, etc.
 - [The Official Python Tutorial](https://docs.python.org/3/tutorial/): self-explanatory.
-- [Practical Python Programming](https://dabeaz-course.github.io/practical-python/): A course by David Beazley
-- [Python Crash Course](https://ehmatthes.github.io/pcc_2e/regular_index/): well written and nicely organized.
+- [Learn Python 3 the Hard Way](https://learnpythonthehardway.org/python3/): a very good and free online textbook.
 - [Invent Your Own Computer Games with Python](https://inventwithpython.com/invent4thed/): Develop your Python skills by making games or hacking ciphers. Another great book for self-study.
 - [Python for You and Me](https://pymbook.readthedocs.io/en/latest/): Simple and clear. This is a great book for absolute newcomers, or to keep as a quick reference as you get used to the language. The latest version is Python 3.
 - [How to Think Like a Computer Scientist](https://runestone.academy/runestone/books/published/thinkcspy/index.html): Interactive Edition
@@ -66,6 +66,7 @@
 ## More practice problems
 
 ### Beginner friendly: 
+- [Python Programming Exercises, Gently Explained](https://inventwithpython.com/pythongently/): by the author of _Automate the Boring Stuff with Python_
 - [Exercism](https://exercism.io/): beginner friendly and difficulty levels are marked
 - [Coding Bat](http://codingbat.com/python): problems you can solve within an online interpreter.
 - [Practice Python](http://www.practicepython.org/): beginner friendly and difficulty levels are marked
