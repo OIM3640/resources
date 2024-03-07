@@ -13,25 +13,24 @@ def process_file(filename, skip_header):
     returns: map from each word to the number of times it appears.
     """
     hist = {}
-    fp = open(filename, encoding='UTF8')
+    fp = open(filename, encoding="utf-8")
 
     if skip_header:
         skip_gutenberg_header(fp)
 
     # strippables = string.punctuation + string.whitespace
-    # via: https://stackoverflow.com/questions/60983836/complete-set-of-punctuation-marks-for-python-not-just-ascii
 
-    strippables = ''.join(
-        [chr(i) for i in range(sys.maxunicode) if category(chr(i)).startswith("P")]
-    )
+    strippables = "".join(
+        chr(i) for i in range(sys.maxunicode) if category(chr(i)).startswith("P")
+    )  # https://stackoverflow.com/questions/60983836/complete-set-of-punctuation-marks-for-python-not-just-ascii
 
     for line in fp:
-        if line.startswith('*** END OF THIS PROJECT'):
+        if line.startswith("*** END OF THE PROJECT"):
             break
 
-        line = line.replace('-', ' ')
+        line = line.replace("-", " ")
         line = line.replace(
-            chr(8212), ' '
+            chr(8212), " "
         )  # Unicode 8212 is the HTML decimal entity for em dash
 
         for word in line.split():
@@ -51,7 +50,7 @@ def skip_gutenberg_header(fp):
     fp: open file object
     """
     for line in fp:
-        if line.startswith('*** START OF THIS PROJECT'):
+        if line.startswith("*** START OF THE PROJECT"):
             break
 
 
@@ -98,7 +97,10 @@ def random_word(hist):
 
 
 def main():
-    hist = process_file('data/Pride and Prejudice.txt', skip_header=True)
+    hist = process_file(
+        "data/Pride and Prejudice.txt", skip_header=True
+    )  # This text file is downloaded from gutenberg.org (https://www.gutenberg.org/cache/epub/1342/pg1342.txt)
+
     # print(hist)
     # print('Total number of words:', total_words(hist))
     # print('Number of different words:', different_words(hist))
@@ -120,5 +122,5 @@ def main():
     #     print(random_word(hist), end=' ')
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
