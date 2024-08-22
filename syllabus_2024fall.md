@@ -1,9 +1,9 @@
-# OIM3640 Problem Solving and Software Design - 2024 Spring - Syllabus
+# OIM3640 Problem Solving and Software Design - 2024 Fall - Syllabus
 
 
 ## Datetime and Address
-- Class Time: **Tuesday**, **Thursday**
-  - Section 02: 3:00PM- 4:30PM, Horn Computer Center 163
+- Class Time: **Monday**, **Wednesday**
+  - Section 01: 3:00PM- 4:30PM, Horn Computer Center 169
 - (Backup) Online Class Platform: Webex (check Canvas for Webex link)
 
 ## Instructor Information
@@ -12,8 +12,8 @@
 - E-mail: [zli@babson.edu](mailto:zli@babson.edu)
 - Office Hours:
   - IN-PERSON: 
-    - Tuesday: 4:45PM - 5:30PM, Babson Hall 216D
-    - Thursday: 1:15PM - 2:15PM, Babson Hall 216D
+    - Monday: 12:15PM - 1:15PM, Babson Hall 216D
+    - Wednesday: 5:00PM - 6:00PM, Babson Hall 216D
   - ONLINE: Webex by appointment
 
 ## Communication
@@ -63,7 +63,7 @@ This course does not require any specific textbooks. All course materials will b
 At your earliest convenience, download and install the following software:
 * [Python](https://www.python.org/downloads/)(latest version):
 
-    **Important Note**: During the initial installation process, please make sure to select the option to **"Add Python 3.12 to PATH."** Failure to do so will result in the need to uninstall and reinstall Python.
+    **Important Note**: During the initial installation process, please make sure to select the option to **"Add Python.exe to PATH."** Failure to do so will result in the need to uninstall and reinstall Python.
 * [Visual Studio Code](https://code.visualstudio.com/):
 
     Throughout the course, you may be asked or suggested to install various VSCode extensions to aid in your learning of Python and programming in general. These extensions may improve your coding experience, debugging, and help you make your code more readable. 
@@ -121,7 +121,6 @@ An programming project has deliverables due throughout the course of the semeste
 * To provide a structure upon which you can apply what you've learned throughout the term
 
 Further information will be made available soon on Canvas/GitHub.
-
 
 ## Course Policies
 
