@@ -12,7 +12,7 @@
 - E-mail: [zli@babson.edu](mailto:zli@babson.edu)
 - Office Hours:
   - IN-PERSON: 
-    - Monday: 12:15PM - 1:15PM, Babson Hall 216D
+    - Monday: 11:45AM - 12:45PM, Babson Hall 216D
     - Wednesday: 5:00PM - 6:00PM, Babson Hall 216D
   - ONLINE: Webex by appointment
 
