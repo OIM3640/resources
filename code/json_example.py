@@ -1,15 +1,20 @@
-import urllib.request
 import json
+import os
+import urllib.request
 
-APIKEY = 'YOUR_OWN_APIKEY'
+from dotenv import load_dotenv
+
+load_dotenv()
+APIKEY = os.getenv("OPENWEAHTER_API_KEY")
+
 city = 'Wellesley'
 country_code = 'us'
-url = f'http://api.openweathermap.org/data/2.5/weather?q={city},{country_code}&APPID={APIKEY}'
+url = f'https://api.openweathermap.org/data/2.5/weather?q={city},{country_code}&APPID={APIKEY}'
 
-# print(url)
+# print(url)  # Open this URL in your browser to see the data
 
-with urllib.request.urlopen(url) as f:
-    response_text = f.read().decode('utf-8')
+with urllib.request.urlopen(url) as response:
+    response_text = response.read().decode('utf-8')
     response_data = json.loads(response_text)
     
 print(response_data)
