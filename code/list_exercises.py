@@ -69,7 +69,7 @@ def is_sorted(t):
     Expected output:
     >>> is_sorted([1, 2, 2])
     True
-    >>> is_sorted(['b', 'a'])
+    >>> is_sorted(["b", "a"])
     False
     """
     return
@@ -87,9 +87,9 @@ def is_anagram(word1, word2):
     returns: boolean
 
     Expected output:
-    >>> is_anagram('stop', 'pots')
+    >>> is_anagram("stop", "pots")
     True
-    >>> is_anagram('different', 'letters')
+    >>> is_anagram("different", "letters")
     False
     >>> is_anagram([1, 2, 2], [2, 1, 2])
     Ture
@@ -105,9 +105,9 @@ def has_duplicates(s):
     returns: bool
 
     output:
-    >>> print(has_duplicates('cba'))
+    >>> print(has_duplicates("cba"))
     False
-    >>> print(has_duplicates('abba'))
+    >>> print(has_duplicates("abba"))
     True
     """
     return
@@ -121,11 +121,11 @@ def has_adjacent_duplicates(s):
     returns: bool
 
     output:
-    >>> print(has_adjacent_duplicates('cba'))
+    >>> print(has_adjacent_duplicates("cba"))
     False
-    >>> print(has_adjacent_duplicates('abca'))
+    >>> print(has_adjacent_duplicates("abca"))
     Flase
-    >>> print(has_adjacent_duplicates('abbc'))
+    >>> print(has_adjacent_duplicates("abbc"))
     True
     """
     return
@@ -144,14 +144,14 @@ def main():
     # print(t)
 
     # print(is_sorted([1, 2, 2]))
-    # print(is_sorted(['b', 'a']))
+    # print(is_sorted(["b", "a"]))
 
-    # print(is_anagram('stop', 'pots'))
-    # print(is_anagram('different', 'letters'))
+    # print(is_anagram("stop", "pots"))
+    # print(is_anagram("different", "letters"))
     # print(is_anagram([1, 2, 2], [2, 1, 2]))
 
-    # print(has_duplicates('cba'))
-    # print(has_duplicates('abba'))
+    # print(has_duplicates("cba"))
+    # print(has_duplicates("abba"))
 
 
 if __name__ == "__main__":

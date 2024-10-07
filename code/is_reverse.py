@@ -14,4 +14,4 @@ def is_reverse(word1, word2):
     return True
 
 
-print(is_reverse('pots', 'stop'))
+print(is_reverse("pots", "stop"))

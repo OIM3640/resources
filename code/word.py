@@ -23,7 +23,7 @@ def find_long_words():
     """
     prints only the words with more than 20 characters
     """
-    f = open('data/words.txt')  # Assume words.txt is under data folder
+    f = open("data/words.txt")  # Assume words.txt is under data folder
 
     for line in f:
         word = line.strip()
@@ -160,5 +160,6 @@ def is_abecedarian_using_while(word):
     (double letters are ok).
     """
     pass
+
 
 # print(is_abecedarian_using_while('abcdef'))

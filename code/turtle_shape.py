@@ -4,8 +4,9 @@ import math
 
 
 def polyline(t, n, length, angle):
-    """Draws n line segments with the given length and
-    angle (in degrees) between them.  t is a turtle.
+    """
+    Draws n line segments with the given length and
+    angle (in degrees) between them. t is a turtle.
     """
     for i in range(n):
         t.fd(length)
@@ -44,8 +45,8 @@ def circle(t, r):
 
 
 def move(t, x, y):
-    """Move Turtle (t) forward (x, y) units without leaving a trail.
-    Leaves the pen down.
+    """
+    Moves Turtle (t) forward (x, y) units without leaving a trail. Leaves the pen down.
     """
     t.pu()
     t.setpos(x, y)

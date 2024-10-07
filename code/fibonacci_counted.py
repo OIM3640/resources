@@ -3,7 +3,7 @@ def fibonacci(n):
     an intuitive version of fibonacci
     """
     global number_fib_calls
-    if 'number_fib_calls' not in globals():
+    if "number_fib_calls" not in globals():
         number_fib_calls = 0
     number_fib_calls += 1
     if n == 0:
@@ -22,7 +22,7 @@ def fib_efficient(n):
     a "memori version of fibonacci
     """
     global number_fib_calls
-    if 'number_fib_calls' not in globals():
+    if "number_fib_calls" not in globals():
         number_fib_calls = 0
     number_fib_calls += 1
     if n in known:
@@ -37,13 +37,13 @@ def main():
     fib_args = 10
     global number_fib_calls
     number_fib_calls = 0
-    print(f'The {fib_args}th Fibonacci number is {fibonacci(fib_args)}.')
-    print('# of function calls:', number_fib_calls)
+    print(f"The {fib_args}th Fibonacci number is {fibonacci(fib_args)}.")
+    print("# of function calls:", number_fib_calls)
 
     number_fib_calls = 0
-    print(f'The {fib_args}th Fibonacci number is {fib_efficient(fib_args)}.')
-    print('# of function calls:', number_fib_calls)
+    print(f"The {fib_args}th Fibonacci number is {fib_efficient(fib_args)}.")
+    print("# of function calls:", number_fib_calls)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

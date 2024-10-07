@@ -7,7 +7,7 @@ to be reducible to a list of its reducible children.  It starts
 with the empty string."""
 
 memo = {}
-memo[''] = ['']
+memo[""] = [""]
 
 
 def is_reducible(word, word_dict):
@@ -55,6 +55,6 @@ def print_longest_words(word_dict):
     """
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     word_dict = make_word_dict()
     print_longest_words(word_dict)

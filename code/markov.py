@@ -15,24 +15,24 @@ def process_file(filename, order=2):
 
     returns: map from prefix to list of possible suffixes.
     """
-    fp = open(filename, encoding='utf8')
+    fp = open(filename, encoding="utf8")
 
     skip_gutenberg_header(fp)
 
     # strippables = string.punctuation + string.whitespace
     # via: https://stackoverflow.com/questions/60983836/complete-set-of-punctuation-marks-for-python-not-just-ascii
 
-    strippables = ''.join(
+    strippables = "".join(
         [chr(i) for i in range(sys.maxunicode) if category(chr(i)).startswith("P")]
     )
 
     for line in fp:
-        if line.startswith('*** END OF THIS PROJECT'):
+        if line.startswith("*** END OF THIS PROJECT"):
             break
 
-        line = line.replace('-', ' ')
+        line = line.replace("-", " ")
         line = line.replace(
-            chr(8212), ' '
+            chr(8212), " "
         )  # Unicode 8212 is the HTML decimal entity for em dash
 
         for word in line.split():
@@ -48,7 +48,7 @@ def skip_gutenberg_header(fp):
     fp: open file object
     """
     for line in fp:
-        if line.startswith('*** START OF THIS PROJECT'):
+        if line.startswith("*** START OF THIS PROJECT"):
             break
 
 
@@ -95,7 +95,7 @@ def random_text(n=100):
 
         # choose a random suffix
         word = random.choice(suffixes)
-        print(word, end=' ')
+        print(word, end=" ")
         start = shift(start, word)
 
 
@@ -111,10 +111,10 @@ def shift(t, word):
 
 
 def main():
-    filename = 'data/Pride and Prejudice.txt'
+    filename = "data/Pride and Prejudice.txt"
     process_file(filename, 2)
     random_text(100)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

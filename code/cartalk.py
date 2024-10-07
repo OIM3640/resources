@@ -9,7 +9,7 @@ def is_triple_double(word):
 
 def find_triple_double():
     """Reads a word list and prints words with triple double letters."""
-    fin = open('data/words.txt')
+    fin = open("data/words.txt")
     for line in fin:
         word = line.strip()
         if is_triple_double(word):
@@ -18,7 +18,7 @@ def find_triple_double():
 
 def main():
     print(
-        'Here are all the words in the list that have three consecutive double letters:'
+        "Here are all the words in the list that have three consecutive double letters:"
     )
     find_triple_double()
 

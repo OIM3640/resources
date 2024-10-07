@@ -11,7 +11,6 @@ def binary_search(my_list, to_find):
     """
 
 
-
 def main():
     test_list = [1, 3, 5, 235425423, 23, 6, 0, -23, 6434]
     test_list.sort()

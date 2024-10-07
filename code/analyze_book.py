@@ -102,24 +102,24 @@ def main():
     )  # This text file is downloaded from gutenberg.org (https://www.gutenberg.org/cache/epub/1342/pg1342.txt)
 
     # print(hist)
-    # print('Total number of words:', total_words(hist))
-    # print('Number of different words:', different_words(hist))
+    # print(f"Total number of words: {total_words(hist)}")
+    # print(f"Number of different words: {different_words(hist)}")
 
     # t = most_common(hist, excluding_stopwords=True)
-    # print('The most common words are:')
+    # print("The most common words are:")
     # for freq, word in t[0:20]:
-    #     print(word, '\t', freq)
+    #     print(word, "\t", freq)
 
-    # words = process_file('words.txt', skip_header=False)
+    # words = process_file("words.txt", skip_header=False)
 
     # diff = subtract(hist, words)
     # print("The words in the book that aren't in the word list are:")
     # for word in diff.keys():
-    #     print(word, end=' ')
+    #     print(word, end=" ")
 
     # print("\n\nHere are some random words from the book")
     # for i in range(100):
-    #     print(random_word(hist), end=' ')
+    #     print(random_word(hist), end=" ")
 
 
 if __name__ == "__main__":
