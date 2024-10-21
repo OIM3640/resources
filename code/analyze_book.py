@@ -5,7 +5,7 @@ from unicodedata import category
 
 
 def process_file(filename, skip_header):
-    """Makes a histogram that contains the words from a file.
+    """Makes a histogram that counts the words from a file.
 
     filename: string
     skip_header: boolean, whether to skip the Gutenberg header
@@ -19,28 +19,24 @@ def process_file(filename, skip_header):
         skip_gutenberg_header(fp)
 
     # strippables = string.punctuation + string.whitespace
-
     strippables = "".join(
         chr(i) for i in range(sys.maxunicode) if category(chr(i)).startswith("P")
-    )  # https://stackoverflow.com/questions/60983836/complete-set-of-punctuation-marks-for-python-not-just-ascii
+    )  # Unicode punctuation characters. Ref: https://stackoverflow.com/a/60983895
 
     for line in fp:
         if line.startswith("*** END OF THE PROJECT"):
             break
 
         line = line.replace("-", " ")
-        line = line.replace(
-            chr(8212), " "
-        )  # Unicode 8212 is the HTML decimal entity for em dash
+        line = line.replace(chr(8212), " ")  # Em dash replacement
 
         for word in line.split():
-            # word could be 'Sussex.'
             word = word.strip(strippables)
             word = word.lower()
 
-            # update the dictionary
             hist[word] = hist.get(word, 0) + 1
 
+    fp.close()
     return hist
 
 
@@ -49,9 +45,13 @@ def skip_gutenberg_header(fp):
 
     fp: open file object
     """
+    start_marker = "START OF THE PROJECT"
+
     for line in fp:
-        if line.startswith("*** START OF THE PROJECT"):
-            break
+        if start_marker.lower() in line.lower():  # Case-insensitive search
+            return
+    # If the loop completes without finding the start marker
+    raise ValueError(f"Header end marker '{start_marker}' not found in file.")
 
 
 def total_words(hist):
@@ -97,9 +97,8 @@ def random_word(hist):
 
 
 def main():
-    hist = process_file(
-        "data/Pride and Prejudice.txt", skip_header=True
-    )  # This text file is downloaded from gutenberg.org (https://www.gutenberg.org/cache/epub/1342/pg1342.txt)
+    # This text file is downloaded from gutenberg.org (https://www.gutenberg.org/cache/epub/1342/pg1342.txt)
+    hist = process_file("data/Pride and Prejudice.txt", skip_header=True)
 
     # print(hist)
     # print(f"Total number of words: {total_words(hist)}")
