@@ -13,7 +13,7 @@ From now until the end of the semester, you will work individually or in a team 
 ### Requirements:
 
 - Since this course is (partially) called "Software Design," your project should include a substantial software component, focusing on designing and implementing a functional application.
-- Your final project should be written primarily in Python. While it's acceptable for some parts to be written in other languages, the majority of the project must be implemented in Python. This requirement helps facilitate peer code reviews and discussions.
+- Your final project should be written primarily in Python. While it's acceptable for some parts to be written in other languages, the majority of the project must be implemented in Python.
 
 ### Suggestions for Project Topics:
 
@@ -46,7 +46,7 @@ From now until the end of the semester, you will work individually or in a team 
 - Your team should consist of no more than two students, although you may opt to work individually.
 - Create a new **public** GitHub repository for your team project, with one team member as the owner and the other as a contributor. **Each team member must submit the URL of the project’s GitHub repository on Canvas.**
 - At the beginning of the `README.md` file, list the names of all team members.
-- (Optional) It’s recommended to establish a Slack channel within our class workspace for easier project communication.
+- (Optional) It’s recommended to create a Slack channel within our class workspace for easier project communication.
 - Schedule a meeting with the professor, or communicate via email or Slack, to discuss potential project ideas before the next deadline.
   
 ### Tips for Team Formation
@@ -87,7 +87,7 @@ When brainstorming your project idea, don't hesitate to explore different tools,
 - Date:
 - The design review is worth 15% of the project grade (see Technical Reviews page for detailed breakdown)
 
-During the design review, three teams will present their project plans to a panel, and this interactive review format aims to elicit valuable/actionable feedback, rather than being a one-way data dump. In addition to the in-person component of this activity, the review will include a framing/agenda setting document to be submitted before the review date and a reflection/synthesis document after the review.
+During the design review, three teams will present their project plans to a panel, and this interactive review format aims to bring out valuable/actionable feedback, rather than being a one-way data dump. In addition to the in-person component of this activity, the review will include a framing/agenda setting document to be submitted before the review date and a reflection/synthesis document after the review.
 
 This review is **optional**, depending on time available, though maintaining communication with the professor is strongly recommended.
 
@@ -176,4 +176,4 @@ However, if you use AI to generate any part of your code, you must provide prope
 We will have a demo session of your final projects. It is an opportunity for everyone to share their final projects, but it is **not part of the evaluation and is not mandatory**.
 
 ---
-updated: 10/20/2024
+updated: 10/23/2024
