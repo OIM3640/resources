@@ -1,5 +1,6 @@
 # Resources and Information for OIM3640 - Problem Solving and Software Design
-### Class Information:
+
+## Class Information:
 
 - [Syllabus](syllabus_2024fall.md)
 - [Schedule](schedule_2024fall.md) (subject to changes)
@@ -8,7 +9,7 @@
 - Class [notebooks](/notebooks)
 - Class [slides](/slides)
 
-### Resources
+## Resources
 
 - [Learning Resources](misc/README.md)
 - [Python Style](misc/Python_style.md)
