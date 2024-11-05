@@ -4,9 +4,9 @@
 
 - [Syllabus](syllabus_2024fall.md)
 - [Schedule](schedule_2024fall.md) (subject to changes)
-- [Project](project.md)
+- [Project Instructions](project.md)
 - [Code Grading Rubric](code_grading_rubric.md)
-- Class [notebooks](/notebooks)
+- Class [materials](/notebooks)
 - Class [slides](/slides)
 
 ## Resources
