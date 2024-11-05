@@ -32,7 +32,7 @@
 ## Cheat Sheets
 
 - One-page Python 3 cheat sheet [Python 3 Cheat Sheet](Python3_Cheat_Sheet.pdf)
-- 
+-
 - [Comprehensive Python Cheatsheet](https://gto76.github.io/python-cheatsheet)
 - [Python Crash Course - Cheat Sheets](https://github.com/ehmatthes/pcc/tree/master/cheat_sheets)
 - [Pysheet](https://www.pythonsheets.com/)
@@ -150,3 +150,7 @@ It can be helpful to read existing code to get a better idea of how to organize 
 - [How to Write a Spelling Corrector](http://norvig.com/spell-correct.html)
 - [Natural language processing](http://norvig.com/ngrams/)
 - [Python Cookbook](http://shop.oreilly.com/product/0636920027072.do)
+
+---
+
+*updated:* *2024/11/05*
