@@ -2,6 +2,7 @@ import sqlite3
 
 
 def create_portfolio_table():
+    """Create a table to store stock portfolio data."""
     with sqlite3.connect("data/stocks.db") as db:
         cursor = db.cursor()
         cursor.execute(
@@ -16,22 +17,27 @@ def create_portfolio_table():
 
 
 def insert_stocks(stocks):
+    """Insert multiple stocks into the portfolio table."""
     with sqlite3.connect("data/stocks.db") as db:
         cursor = db.cursor()
         cursor.executemany("INSERT INTO portfolio VALUES (?,?,?)", stocks)
 
 
 def display_portfolio():
+    """Display all the stocks in the portfolio table."""
     with sqlite3.connect("data/stocks.db") as db:
         cursor = db.cursor()
         for row in cursor.execute("SELECT * FROM portfolio"):
             print(row)
 
 
-def display_expensive_stocks(price):
+def display_expensive_stocks(threshold_price):
+    """Display stocks with price greater than a given value."""
     with sqlite3.connect("data/stocks.db") as db:
         cursor = db.cursor()
-        results = cursor.execute("SELECT * FROM portfolio WHERE price > ?", (price,))
+        results = cursor.execute(
+            "SELECT * FROM portfolio WHERE price > ?", (threshold_price,)
+        )
         for row in results:
             print(row)
 
