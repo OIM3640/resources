@@ -1,9 +1,9 @@
-# OIM3640 Problem Solving and Software Design - 2024 Fall - Syllabus
+# OIM3640 Problem Solving and Software Design - 2025 Spring - Syllabus
 
 ## Datetime and Address
 
-- Class Time: **Monday**, **Wednesday**
-  - Section 01: 3:00PM- 4:30PM, Horn Computer Center 169
+- Class Time: **Tuesday**, **Thursday**
+  - Section 02: 9:45AM- 11:15AM, Horn Computer Center 163
 - (Backup) Online Class Platform: Webex (check Canvas for Webex link)
 
 ## Instructor Information
@@ -11,10 +11,10 @@
 - Instructor: Dr. Zhi Li
 - E-mail: [zli@babson.edu](mailto:zli@babson.edu)
 - Office Hours:
-  - IN-PERSON:
-    - Monday: 11:45AM - 12:45PM, Babson Hall 216D
-    - Wednesday: 5:00PM - 6:00PM, Babson Hall 216D
-  - ONLINE: Webex by appointment
+  - In-person:
+    - Wednesday: 2:30PM - 3:30PM, Babson Hall 216D
+    - Thursday: 2:30PM - 3:30PM, Babson Hall 216D
+  - Online: Webex by appointment
 
 ## Communication
 
@@ -25,10 +25,10 @@ If you need help outside of class and office hours, use Slack/email to schedule 
   - Used for: traditional stuff (Announcements, assignments, sensitive information...)
 - [GitHub](https://github.com/OIM3640):
   - What: Course GitHub repositories
-  - Used for: materials; demo code; homework/exam starter code.
+  - Used for: materials, demo code, homework/exam starter code, etc.
 - Slack:
   - What: Course Slack channel
-  - Used for: debugging help, clarifications, real-time discussion and random chat.
+  - Used for: debugging help, clarifications, real-time discussion and random chat, etc.
 
 ## Course Description
 
@@ -65,9 +65,11 @@ At your earliest convenience, download and install the following software:
 * [Python](https://www.python.org/downloads/)(latest version):
 
     **Important Note**: During the initial installation process, please make sure to select the option to **"Add Python.exe to PATH."** Failure to do so will result in the need to uninstall and reinstall Python.
+
 * [Visual Studio Code](https://code.visualstudio.com/):
 
     Throughout the course, you may be asked or suggested to install various VSCode extensions to aid in your learning of Python and programming in general. These extensions may improve your coding experience, debugging, and help you make your code more readable.
+
 * [GitHub Desktop](https://desktop.github.com/):
 
     You need to create an account on [GitHub website](https://github.com/) using your school-affiliated email address.
