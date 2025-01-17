@@ -12,8 +12,9 @@
 - E-mail: [zli@babson.edu](mailto:zli@babson.edu)
 - Office Hours:
   - In-person:
-    - Wednesday: 2:30PM - 3:30PM, Babson Hall 216D
-    - Thursday: 2:30PM - 3:30PM, Babson Hall 216D
+    - Tuesday: 11:30AM - 12:30PM, Babson Hall 216D
+    - Thursday: 2:00PM - 3:00PM, Babson Hall 216D
+    - By appointment
   - Online: Webex by appointment
 
 ## Communication
@@ -62,15 +63,15 @@ This course does not require any specific textbooks. All course materials will b
 
 At your earliest convenience, download and install the following software:
 
-* [Python](https://www.python.org/downloads/)(latest version):
+- [Python](https://www.python.org/downloads/)(latest version):
 
     **Important Note**: During the initial installation process, please make sure to select the option to **"Add Python.exe to PATH."** Failure to do so will result in the need to uninstall and reinstall Python.
 
-* [Visual Studio Code](https://code.visualstudio.com/):
+- [Visual Studio Code](https://code.visualstudio.com/):
 
     Throughout the course, you may be asked or suggested to install various VSCode extensions to aid in your learning of Python and programming in general. These extensions may improve your coding experience, debugging, and help you make your code more readable.
 
-* [GitHub Desktop](https://desktop.github.com/):
+- [GitHub Desktop](https://desktop.github.com/):
 
     You need to create an account on [GitHub website](https://github.com/) using your school-affiliated email address.
 
@@ -95,7 +96,7 @@ At your earliest convenience, download and install the following software:
 
 ## Private Repository for the Course
 
-The first task in this course will be to set up a private repository on GitHub for all Python programs related to the class. The instructor will provide a demonstration of how to do this and guide you through the process at the beginning of the semester. Most classwork including in-class activities/exercises and quizzes will be committed and pushed to this repository. This repository will serve as your personal classwork project and will be kept private on GitHub. It is crucial that you frequently update this repository, as all the classwork will be evaluated based on the content and organization of the repository. Please note that this repository should not to be confused with the final project repository.
+You will be asked to set up a private repository on GitHub for all Python programs related to the class. The instructor will provide a demonstration of how to do this and guide you through the process at the beginning of the semester. Most classwork including in-class activities/exercises and quizzes will be committed and pushed to this repository. This repository will serve as your personal classwork project and will be kept private on GitHub. **It is crucial that you frequently update this repository, as all the classwork will be evaluated based on the content and organization of the repository.** Please note that this repository should not to be confused with the final project repository.
 
 ## In-Class Exercises:
 
@@ -109,7 +110,7 @@ Throughout the course, there will be multiple quizzes to assess student's unders
 
 Throughout the course, there will be a total of 4 graded homework assignments. Each assignment must be submitted by 11:59 PM on the due date specified in the accompanying instructions document. Late submissions will incur a deduction of 10 points per day or partial day, up to four days. Assignments submitted more than four days past the due date will receive a grade of zero. Extensions may be granted at the discretion of the instructor if requested in advance. Homework assignments are considered to be individual activities. If you need help, feel free to reach out to the instructor. Note: Your assignment repositories created under the [course GitHub organization](https://github.com/OIM3640) (not your peronsal private repository) may be modified or removed by the instructor after the semester ends.
 
-It's important to note that while completing the homework assignments, you may seek help from others, including online sources, but it is essential that you understand what you have submitted, give references or links to the help you have used in the code comments and clearly credit the sources. Failure to do so would be considered a violation of Babson's Honor Code.
+It is important to note that while completing the homework assignments, you may seek help from others, including online sources, but it is essential that you understand what you have submitted, give references or links to the help you have used in the code comments and clearly credit the sources. Failure to do so would be considered a violation of Babson's Honor Code.
 
 ~~## Examination:~~
 
@@ -119,10 +120,10 @@ It's important to note that while completing the homework assignments, you may s
 
 An programming project has deliverables due throughout the course of the semester. The goals of the project are:
 
-* To exercise and demonstrate your ability to program using Python
-* To exercise and demonstrate your problem solving skills
-* To create something useful
-* To provide a structure upon which you can apply what you've learned throughout the term
+- To exercise and demonstrate your ability to program using Python
+- To exercise and demonstrate your problem solving skills
+- To create something useful
+- To provide a structure upon which you can apply what you've learned throughout the term
 
 Further information will be made available soon on Canvas/GitHub.
 
@@ -158,6 +159,6 @@ Further information will be made available soon on Canvas/GitHub.
 
   If you have questions relative to academic integrity expectations within the context of a particular assignment, please ask me directly. General questions can be directed to <communitystandards@babson.edu>.  
 
-* **Conflict Navigation Services**:
+- **Conflict Navigation Services**:
   
   Conflict – especially when working in groups – is a normal, healthy, and expected part of life and ideally is viewed as an opportunity to strengthen relationships, improve efficiency, and rectify underlying concerns that often otherwise go unaddressed. Resolving conflict is a vital part of the educational journey of the Babson student and entrepreneur and requires your active participation and skill development. If you experience interpersonal conflict in this course, I encourage you to explore the [College's Conflict Navigation Services](https://bit.ly/babsonconflictform) as a resource.
