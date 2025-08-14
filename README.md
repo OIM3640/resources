@@ -2,12 +2,10 @@
 
 ## Class Information:
 
-- [Syllabus](syllabus_2025spring.md)
-- [Schedule](schedule_2025spring.md) (subject to changes)
-- [Project Instructions](project.md)
+- [Syllabus](syllabus_2025fall.md)
+- [Schedule](schedule_2025fall.md) (subject to changes)
+- [Project Instructions](project.md) (coming soon)
 - [Code Grading Rubric](code_grading_rubric.md)
-- Class [materials](/notebooks)
-- Class [slides](/slides)
 
 ## Resources
 

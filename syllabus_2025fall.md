@@ -1,9 +1,9 @@
-# OIM3640 Problem Solving and Software Design - 2025 Spring - Syllabus
+# OIM3640 Problem Solving and Software Design - 2025 Fall - Syllabus
 
 ## Datetime and Address
 
-- Class Time: **Tuesday**, **Thursday**
-  - Section 02: 9:45AM- 11:15AM, Horn Computer Center 163
+- Class Time:
+  - **Monday**, **Wednesday**: 3:00PM - 4:30PM, Gerber 102
 - (Backup) Online Class Platform: Webex (check Canvas for Webex link)
 
 ## Instructor Information
@@ -12,44 +12,31 @@
 - E-mail: [zli@babson.edu](mailto:zli@babson.edu)
 - Office Hours:
   - In-person:
-    - Tuesday: 11:30AM - 12:30PM, Babson Hall 216D
-    - Thursday: 2:00PM - 3:00PM, Babson Hall 216D
+    - **Wednesday**: 1:00PM - 2:00PM, Babson Hall 216D
+    - **Thursday**: 4:45PM - 5:30PM, Babson Hall 216D
     - By appointment
   - Online: Webex by appointment
 
-## Communication
-
-If you need help outside of class and office hours, use Slack/email to schedule an appointment.
-
-- Canvas:  
-  - What: The default course site
-  - Used for: traditional stuff (Announcements, assignments, sensitive information...)
-- [GitHub](https://github.com/OIM3640):
-  - What: Course GitHub repositories
-  - Used for: materials, demo code, homework/exam starter code, etc.
-- Slack:
-  - What: Course Slack channel
-  - Used for: debugging help, clarifications, real-time discussion and random chat, etc.
-
 ## Course Description
 
-This course is an introduction to Python programming language, designed for students with little or no prior programming experience. Python is a popular, open-source, multi-paradigm, general-purpose programming language, with a clear and readable syntax and high-level data types. It is easy for beginners to learn, yet widely used in various scientific and business fields, particularly for data exploration. Throughout this course, students will learn about key Python concepts such as data types, control flow, object-oriented programming, and data analysis. The course material will include examples and problem sets drawn from a range of areas, including text processing, web scraping, and data analytics. Additionally, the course will also cover web development using the Flask framework, which is a lightweight web application framework for Python. This will allow students to create interactive web applications and websites with Python, and will give them an understanding of how to interact with web servers and clients.
+This course introduces computational thinking and problem-solving through Python, a popular and beginner-friendly programming language valued for its readability and versatility. The focus is on using Python as a practical tool to work with data, automate tasks, and address challenges in business and data-driven contexts. Students will learn key concepts such as data types, control flow, functions, and basic object-oriented programming, and apply them to areas like text processing, data analytics, and simple web applications. Emphasis is placed on exploring and interpreting real-world datasets, helping students develop both analytical skills and the ability to communicate insights clearly.
 
 ## Learning Objectives
 
-- Identify and characterize problems that can be solved using Python
-- Break down larger problems into smaller, more manageable tasks
-- Design effective Python programs to solve identified problems
-- Create readable, maintainable, and functional code using Python
-- Build a portfolio of programming skills that can be showcased to potential employers
-- Read and understand most Python code written by others
-- Participate in pair programming and understand the value of working in a collaborative development environment
-- Create basic unit tests to ensure code quality and functionality
-- Develop a deeper understanding and appreciation for the software development process
-- Acquire knowledge about latest development tools such as VSCode, Git/GitHub and more
-- Understand the Flask framework and how it can be used to create web applications, and the role of routing and templating in web development
-- Understand the basics of how the internet works and how web applications function in this context
-- Utilize basic data analytics techniques to gain business insight.
+By the end of this course, students will be able to:
+
+- Apply computational thinking to identify and frame problems that can be addressed with programming.
+- Break down larger problems into smaller, manageable tasks and design effective solutions.
+- Write readable, maintainable, and functional Python code to implement solutions.
+- Read and understand code written by others and follow good software development practices.
+- Use version control and other common development tools (e.g., VS Code, Git/GitHub) to support coding projects.
+- Apply basic unit testing to verify code functionality and quality.
+- Work effectively in collaborative environments, including pair programming.
+- Understand how Python can be used for simple web applications and the fundamentals of how the internet and web applications work.
+- Collect, clean, and analyze data to generate business insights.
+- Present analytical results clearly to support decision-making.
+- Leverage AI tools, including AI-assisted coding and vibe coding, for problem-solving, rapid prototyping, and idea exploration, while critically evaluating and integrating AI-generated output for accuracy, relevance, and suitability.
+- Build a portfolio of programming and analytical skills that can be showcased to potential employers.
 
 ## Prerequisites
 
@@ -57,23 +44,18 @@ Students should have a basic understanding of operating a personal computer, inc
 
 ## Textbook
 
-This course does not require any specific textbooks. All course materials will be provided in PPT/PDF/HTML format and made available on the Canvas and/or GitHub. While not mandatory, students may find it beneficial to obtain additional resources/books for reference and supplementary support. Prior programming experience is not a prerequisite for this course, it is designed to cater for a wide range of backgrounds and skill levels.
+This course does not require the purchase of a textbook. The primary learning materials will consist of [*Think Python 3*](https://allendowney.github.io/ThinkPython/) Jupyter Notebooks supplemented with the instructor's own resources. All materials will be provided in PDF, HTML, or Jupyter Notebook format via Canvas and/or GitHub. Students may use additional references for further study. Prior programming experience is not required.
 
 ## Software
 
-At your earliest convenience, download and install the following software:
+Please install the following before the first class:
 
-- [Python](https://www.python.org/downloads/)(latest version):
+- [Anaconda](https://www.anaconda.com/download) (**check ALL options on the "Advanced installation options" page, including "Add Anaconda to my PATH environment variable" and "Register Anaconda as my default Python"**)
+  - **Important**: Please download **Anaconda Distribution** (on the left side of the download page), not Miniconda. Make sure you select the installer for your operating system.
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Git](https://git-scm.com/) and [GitHub Desktop](https://desktop.GitHub.com/)
 
-    **Important Note**: During the initial installation process, please make sure to select the option to **"Add Python.exe to PATH."** Failure to do so will result in the need to uninstall and reinstall Python.
-
-- [Visual Studio Code](https://code.visualstudio.com/):
-
-    Throughout the course, you may be asked or suggested to install various VSCode extensions to aid in your learning of Python and programming in general. These extensions may improve your coding experience, debugging, and help you make your code more readable.
-
-- [GitHub Desktop](https://desktop.github.com/):
-
-    You need to create an account on [GitHub website](https://github.com/) using your school-affiliated email address.
+**Detailed installation instructions are provided in the "Course Software" section on Canvas.**
 
 ## Grading
 
@@ -96,19 +78,19 @@ At your earliest convenience, download and install the following software:
 
 ## Private Repository for the Course
 
-You will be asked to set up a private repository on GitHub for all Python programs related to the class. The instructor will provide a demonstration of how to do this and guide you through the process at the beginning of the semester. Most classwork including in-class activities/exercises and quizzes will be committed and pushed to this repository. This repository will serve as your personal classwork project and will be kept private on GitHub. **It is crucial that you frequently update this repository, as all the classwork will be evaluated based on the content and organization of the repository.** Please note that this repository should not to be confused with the final project repository.
+You will be asked to set up a private repository on GitHub for all Python programs related to the class. The instructor will provide a demonstration of how to do this and guide you through the process at the beginning of the semester. Most classwork including in-class activities/exercises and quizzes will be committed and pushed to this repository. This repository will serve as your personal classwork project and will be kept private on GitHub. **It is crucial that you frequently update this repository, as all the classwork will be evaluated based on the content and organization of the repository.** Please note that this repository should not be confused with the final project repository. The final project will have its own repository separate from this one.
 
 ## In-Class Exercises:
 
-Throughout the course, we will be engaging in various hands-on exercises provided by the instructor, the instructions for which can also be found on Canvas. While some students may complete these exercises during class, all students have until 11:59 PM the following calendar day to submit their work by committing and pushing to the assigned Github repository. These class exercises will be graded as either Finished, Partially Finished, Excused, or Not Submitted. Even if you miss a class, it is still required to complete the in-class exercise. We will have approximately 16-20 exercises in total, with one excuse allowed for the semester. Additional excuses may be granted at the discretion of the instructor. It's important to note that while completing the exercises, you may seek help from others, including online sources, but it is essential that you understand what you have submitted, give references or links to the help you have used in the code comments and clearly credit the sources. Failure to do so would be considered a violation of Babson's Honor Code.
+Throughout the course, we will be engaging in various hands-on exercises provided by the instructor, the instructions for which can also be found on Canvas. While some students may complete these exercises during class, all students have until 11:59 PM the following calendar day to submit their work by committing and pushing to the assigned GitHub repository. These class exercises will be graded as either Finished, Partially Finished, Excused, or Not Submitted. Exercises marked as "Partially Finished" may receive partial credit based on completeness and correctness. Even if you miss a class, you are still required to complete the in-class exercise. We will have approximately 16-20 exercises in total, with one excuse allowed for the semester. Additional excuses may be granted at the discretion of the instructor. It's important to note that while completing the exercises, you may seek help from others, including online sources, but it is essential that you understand what you have submitted, give references or links to the help you have used in the code comments and clearly credit the sources. Failure to do so would be considered a violation of Babson's Honor Code.
 
 ## Quizzes
 
-Throughout the course, there will be multiple quizzes to assess student's understanding of the material covered. These quizzes will be in-class programming problems. Most quizzes will be announced beforehand. Each quiz will be worth 2 to 4 times the value of an exercise, depending on the level of difficulty and the number of problems. It is important to note that no make-up quizzes will be given, unless you have a valid medical excuse. Missing a quiz without a valid excuse will result in a grade of zero for that quiz. We encourage you to attend every class, and reach out to the instructor if you have any questions or concerns about a quiz.
+Throughout the course, there will be several quizzes to assess student's understanding of the material covered. These quizzes will be in-class programming problems. Most quizzes will be announced beforehand. Each quiz will be worth 2 to 4 times the value of an exercise, depending on the level of difficulty and the number of problems. It is important to note that no make-up quizzes will be given, unless you have a valid medical excuse. Missing a quiz without a valid excuse will result in a grade of zero for that quiz. We encourage you to attend every class, and reach out to the instructor if you have any questions or concerns about a quiz. Quizzes will focus on concepts and skills practiced in recent classes.
 
 ## Assignments:
 
-Throughout the course, there will be a total of 4 graded homework assignments. Each assignment must be submitted by 11:59 PM on the due date specified in the accompanying instructions document. Late submissions will incur a deduction of 10 points per day or partial day, up to four days. Assignments submitted more than four days past the due date will receive a grade of zero. Extensions may be granted at the discretion of the instructor if requested in advance. Homework assignments are considered to be individual activities. If you need help, feel free to reach out to the instructor. Note: Your assignment repositories created under the [course GitHub organization](https://github.com/OIM3640) (not your peronsal private repository) may be modified or removed by the instructor after the semester ends.
+Throughout the course, there will be a total of 4 graded homework assignments. Each assignment must be submitted by 11:59 PM on the due date specified in the accompanying instructions document. Late submissions will incur a deduction of 10 points per day or partial day, up to four days. Assignments submitted more than four days past the due date will receive a grade of zero. Extensions may be granted at the discretion of the instructor if requested in advance. Homework assignments are considered to be individual activities. If you need help, feel free to reach out to the instructor. Note: Your assignment repositories created under the [course GitHub organization](https://GitHub.com/OIM3640) (not your personal private repository) may be modified or removed by the instructor after the semester ends.
 
 It is important to note that while completing the homework assignments, you may seek help from others, including online sources, but it is essential that you understand what you have submitted, give references or links to the help you have used in the code comments and clearly credit the sources. Failure to do so would be considered a violation of Babson's Honor Code.
 
@@ -118,14 +100,7 @@ It is important to note that while completing the homework assignments, you may 
 
 ## Term Project:
 
-An programming project has deliverables due throughout the course of the semester. The goals of the project are:
-
-- To exercise and demonstrate your ability to program using Python
-- To exercise and demonstrate your problem solving skills
-- To create something useful
-- To provide a structure upon which you can apply what you've learned throughout the term
-
-Further information will be made available soon on Canvas/GitHub.
+The term project is a programming project with deliverables due throughout the semester. It is designed to exercise and demonstrate your ability to program in Python, apply problem-solving skills, and create something useful. The project provides a structure for applying what you have learned across the term, with flexibility in topic selection subject to instructor approval, and may be completed individually or as a team depending on scope. Further details will be available on Canvas and GitHub.
 
 ## Course Policies
 
