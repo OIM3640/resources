@@ -11,9 +11,10 @@ Anaconda comes with Python, Jupyter Notebook, and commonly used data analysis li
 - ✅ *Add Anaconda3 to my PATH environment variable*  
 - ✅ *Register Anaconda3 as my default Python*
 - ✅ *Clear the package cache upon completion*
-![anaconda installation page](anaconda_installation.png)
 
-This will allow you to run `python`, `ipython`, and `jupyter` directly from Command Prompt(CMD), PowerShell, or VS Code.
+    ![anaconda installation page](anaconda_installation.png)
+
+This will allow you to run `python`, `ipython`, and `jupyterlab` directly from Command Prompt(CMD), PowerShell, or VS Code.
 
 ---
 
