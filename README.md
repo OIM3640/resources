@@ -9,5 +9,5 @@
 
 ## Resources
 
-- [Learning Resources](misc/README.md)
+- [Learning Resources](misc/python_resources.md)
 - [Python Style](misc/Python_style.md)
