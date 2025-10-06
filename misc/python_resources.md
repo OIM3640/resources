@@ -22,7 +22,7 @@
 - [How to Think Like a Computer Scientist](https://runestone.academy/ns/books/published/thinkcspy/index.html): Interactive Edition
 - [Fluent Python, 2nd Edition](https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/): All python3, and focused on getting the advanced details right. Good place to go once you've got the basics. [Example code on GitHub](https://github.com/fluentpython/example-code-2e).
 - [Problem Solving with Algorithms and Data Structures](https://runestone.academy/ns/books/published/pythonds/index.html)
-- [A Byte of Python](https://python.swaroopch.com/): now it is using Python 3
+- [A Byte of Python](https://python.swaroopch.com/)
 - [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/): This handcrafted guide exists to provide both novice and expert Python developers a best practice handbook for the installation, configuration, and usage of Python on a daily basis.
 - [Introduction to Programming with Python](https://opentechschool.github.io/python-beginners/en/index.html): goes over the basic syntax and control structures in Python. The free book has numerous code examples to go along with each topic.
 - [Learn to program in the Python computer language by creating 2D video games with the Arcade library](https://learn.arcade.academy/en/latest/)
