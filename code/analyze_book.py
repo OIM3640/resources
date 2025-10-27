@@ -1,10 +1,11 @@
 import random
 import string
 import sys
+from collections import Counter
 from unicodedata import category
 
 
-def process_file(filename, skip_header):
+def process_file(filename, skip_header=True):
     """Makes a histogram that counts the words from a file.
 
     filename: string
@@ -13,45 +14,33 @@ def process_file(filename, skip_header):
     returns: map from each word to the number of times it appears.
     """
     hist = {}
-    fp = open(filename, encoding="utf-8")
 
-    if skip_header:
-        skip_gutenberg_header(fp)
-
-    # strippables = string.punctuation + string.whitespace
-    strippables = "".join(
+    # Unicode punctuation characters. Ref: https://stackoverflow.com/a/60983895
+    STRIPPABLES = "".join(
         chr(i) for i in range(sys.maxunicode) if category(chr(i)).startswith("P")
-    )  # Unicode punctuation characters. Ref: https://stackoverflow.com/a/60983895
+    )
 
-    for line in fp:
-        if line.startswith("*** END OF THE PROJECT"):
-            break
+    with open(filename, encoding="utf-8") as f:
+        # Skip Gutenberg header if needed
+        if skip_header:
+            for line in f:
+                if "START OF THE PROJECT" in line.upper():
+                    break
 
-        line = line.replace("-", " ")
-        line = line.replace(chr(8212), " ")  # Em dash replacement
+        # Process content
+        for line in f:
+            if line.startswith("*** END OF THE PROJECT"):
+                break
 
-        for word in line.split():
-            word = word.strip(strippables)
-            word = word.lower()
+            # Replace dashes with spaces
+            line = line.replace("-", " ").replace(chr(8212), " ")
 
-            hist[word] = hist.get(word, 0) + 1
+            # Extract and clean words
+            for word in line.split():
+                word = word.strip(STRIPPABLES).lower()
+                hist[word] = hist.get(word, 0) + 1
 
-    fp.close()
     return hist
-
-
-def skip_gutenberg_header(fp):
-    """Reads from fp until it finds the line that ends the header.
-
-    fp: open file object
-    """
-    start_marker = "START OF THE PROJECT"
-
-    for line in fp:
-        if start_marker.lower() in line.lower():  # Case-insensitive search
-            return
-    # If the loop completes without finding the start marker
-    raise ValueError(f"Header end marker '{start_marker}' not found in file.")
 
 
 def total_words(hist):
