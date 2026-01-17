@@ -14,7 +14,7 @@ Anaconda comes with Python, Jupyter Notebook, and commonly used data analysis li
 
     ![anaconda installation page](anaconda_installation.png)
 
-This will allow you to run `python`, `ipython`, and `jupyterlab` directly from Command Prompt(CMD), PowerShell, or VS Code.
+This will allow you to run `python`, `ipython`, and `jupyterlab` directly from Command Prompt(CMD), PowerShell, or terminal in VS Code.
 
 ---
 
@@ -58,5 +58,6 @@ Run these in your terminal (CMD/PowerShell on Windows, Terminal on macOS). If al
 ```bash
 python --version
 ipython --version
+conda --version
 git --version
 ```
