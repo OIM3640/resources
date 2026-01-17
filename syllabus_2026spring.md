@@ -47,7 +47,7 @@ By the end of this course, students will be able to:
 - Understand how Python can be used for simple web applications and the fundamentals of how the internet works
 - Collect, clean, and analyze data to generate business insights
 - Present analytical results clearly to support decision-making
-- **Collaborate with AI tools** (ChatGPT, GitHub Copilot, etc.) while maintaining independent judgment and critical evaluation
+- **Collaborate with AI tools** while maintaining independent judgment and critical evaluation
 - Build a **public portfolio** of programming and analytical skills that can be showcased to potential employers
 - **Reflect on and articulate your learning process**, demonstrating growth over time
 
@@ -114,9 +114,9 @@ This course embraces the **"Learn in Public"** philosophy. You will create **pub
 ```
 oim3640/                     # Main course repository (public)
 ├── notebooks/               # Jupyter notebooks (from Think Python 3)
-├── code/                    # Demos and in-class exercises
+├── code/                    # Python scripts and modules
 ├── data/                    # Data files
-├── logs/                    # Learning logs (Markdown: s01.md, s02.md, ...)
+├── logs/                    # Learning logs (Markdown files: s01.md, s02.md, ...)
 ├── mini_projects/           # Mini projects (may be here or separate repos)
 └── README.md                # Portfolio homepage
 ```
@@ -125,7 +125,7 @@ oim3640/                     # Main course repository (public)
 
 ## Checkpoints (40%)
 
-Your learning progress is tracked through **at least 6 checkpoints** distributed throughout the semester. Checkpoints are not announced in advance - they occur naturally as part of the course flow.
+Your learning progress is tracked through **at least 6 checkpoints** distributed throughout the semester. Checkpoints are not announced in advance; they occur naturally as part of the course flow.
 
 Each checkpoint may include:
 
@@ -147,7 +147,7 @@ After each class session, submit a brief **learning log** in Markdown format in 
 # Session X (Date) - [Topic]
 
 ## What I learned today
-[Brief reflection on key concepts - focus on understanding, not syntax]
+[Brief reflection on key concepts; focus on understanding, not just syntax]
 
 ## Code/work I'm proud of (optional)
 [Paste a snippet and explain what it does]
@@ -162,13 +162,13 @@ After each class session, submit a brief **learning log** in Markdown format in 
 [What remains unclear?]
 ```
 
-**Note**: Your logs are for **your learning** first, grading second. Write honestly about struggles and questions - this demonstrates growth mindset.
+**Note**: Your logs are for **your learning** first, grading second. Write honestly about struggles and questions. This demonstrates growth mindset.
 
 **Evaluation**:
 
 - Presence/absence (counts toward checkpoints)
 - Depth and honesty (assessed during checkpoint reviews)
-- No specific length requirement - quality over quantity
+- No specific length requirement. Quality matters over quantity
 
 ### Mini Projects
 
@@ -230,7 +230,7 @@ Brief conversations during checkpoint reviews where I ask you questions about yo
 These interviews:
 
 - Happen naturally as part of the checkpoint process
-- Are not separate appointments - they occur during regular checkpoint reviews
+- No need to schedule separate appointments
 - Focus on your repository work, mini projects, and learning journey
 - Allow you to explain and defend your design choices
 
@@ -307,7 +307,7 @@ Integrity is a core institutional value at Babson. The Babson College Undergradu
 3. **Document AI assistance when required**: Specific requirements for documenting AI usage will be provided with each assignment. This may include comments in code, separate documentation files, or reflection in learning logs.
 
 4. **Critical evaluation is essential**:
-   - AI makes mistakes - always verify outputs
+   - AI makes mistakes. Please always verify outputs
    - AI may not understand your specific context
    - You are responsible for the correctness of your submissions
 
