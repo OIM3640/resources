@@ -1,4 +1,4 @@
-# Optional Mini Projects
+# Elective Mini Projects
 
 Choose **1–2** of the following projects in addition to the 3 required projects. Each follows the same milestone structure (Proposal → Prototype → Core → Polish) and grading criteria described in the [README](README.md).
 

@@ -4,9 +4,9 @@
 
 Throughout this semester, you will complete a series of **mini projects** to practice building real things with Python. These are designed around problems you actually care about - tools you want to use, questions you want to answer, things you want to build.
 
-### Structure: 3 Required + 1–2 Optional
+### Structure: 3 Required + 1–2 Elective
 
-You must complete the **3 required projects**. Additionally, choose **1–2 optional projects** to explore areas that interest you.
+You must complete the **3 required projects**. Additionally, choose **1–2 elective projects** to explore areas that interest you.
 
 ### Required Projects
 
@@ -16,16 +16,16 @@ You must complete the **3 required projects**. Additionally, choose **1–2 opti
 | 2 | [Text Analysis](02-text-analysis.md) | Strings, files, dictionaries, text processing | After Session 13 |
 | 3 | [Web App (MBTA + Mapbox)](03-web-app.md) | Flask, HTML templates, external APIs | After Session 18 |
 
-### Optional Projects (Choose 1–2)
+### Elective Projects (Choose 1–2)
 
 | Project | Core Skills |
 |---------|-------------|
-| [Simulation & Numbers](optional-projects.md#option-a-simulation--numbers) | Random, probability, matplotlib |
-| [Data Explorer](optional-projects.md#option-b-data-explorer) | pandas, matplotlib, data storytelling |
-| [Web Scraper](optional-projects.md#option-c-web-scraper) | requests, BeautifulSoup, data cleaning |
-| [AI-Powered Tool](optional-projects.md#option-d-ai-powered-tool) | API calls, prompt engineering |
-| [Game](optional-projects.md#option-e-game) | Game logic, state management, user interaction |
-| [Custom Project](optional-projects.md#option-f-custom-project) | Propose your own - anything that uses Python to solve a real problem |
+| [Simulation & Numbers](elective-projects.md#option-a-simulation--numbers) | Random, probability, matplotlib |
+| [Data Explorer](elective-projects.md#option-b-data-explorer) | pandas, matplotlib, data storytelling |
+| [Web Scraper](elective-projects.md#option-c-web-scraper) | requests, BeautifulSoup, data cleaning |
+| [AI-Powered Tool](elective-projects.md#option-d-ai-powered-tool) | API calls, prompt engineering |
+| [Game](elective-projects.md#option-e-game) | Game logic, state management, user interaction |
+| [Custom Project](elective-projects.md#option-f-custom-project) | Propose your own - anything that uses Python to solve a real problem |
 
 Each project gives you a **direction**, not a specific problem to solve. You choose what to build within that direction.
 
