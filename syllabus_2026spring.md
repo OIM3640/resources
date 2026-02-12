@@ -116,8 +116,8 @@ oim3640/                     # Main course repository (public)
 ├── notebooks/               # Jupyter notebooks (from Think Python 3)
 ├── code/                    # Python scripts and modules
 ├── data/                    # Data files
-├── logs/                    # Learning logs (Markdown files: s01.md, s02.md, ...)
-├── mini_projects/           # Mini projects (may be here or separate repos)
+├── logs/                    # Learning logs (Markdown files: s01.md, wk04.md, wk05.md, ...)
+├── projects/                # Mini projects (may be here or separate repos)
 └── README.md                # Portfolio homepage
 ```
 
@@ -137,16 +137,16 @@ The goal is to assess your **ongoing learning** rather than performance on speci
 
 ### Learning Logs
 
-After each class session, submit a brief **learning log** in Markdown format in your `logs/` folder.
+After each week, submit a brief **learning log** in Markdown format in your `logs/` folder.
 
-**File naming**: `s01.md`, `s02.md`, etc.
+**File naming**: ``wk01.md`, `wk02.md`, etc. (one per week)
 
 **Suggested format** (use as reference, develop your own style):
 
 ```markdown
-# Session X (Date) - [Topic]
+# Week X (Dates) - [Topics]
 
-## What I learned today
+## What I learned this week
 [Brief reflection on key concepts; focus on understanding, not just syntax]
 
 ## Code/work I'm proud of (optional)
@@ -172,21 +172,20 @@ After each class session, submit a brief **learning log** in Markdown format in 
 
 ### Mini Projects
 
-Mini projects are **focused explorations** that demonstrate your understanding through building. They replace traditional homework assignments.
+Mini projects are **focused explorations** that demonstrate your understanding through building. Each project gives you a direction, not a specific problem to solve. You choose what to build within that direction.
+
+Projects span a range of topics, including:
+
+- Python fundamentals in context (simulations, data processing, etc.)
+- Data analysis and storytelling with real-world datasets
+- Web applications and API integrations
 
 Each mini project:
 
-- Has flexible options (you choose what to build)
-- Can be in your main OIM3640 repo or separate repos
-- Emphasizes **understanding over implementation**
-- Allows AI assistance but requires **full explanation**
-
-Mini projects typically include:
-
-- AI-powered prototyping experiences
-- Python fundamentals in context (simulations, data processing, etc.)
-- Data analysis and storytelling with real-world datasets
-- Web applications or API integrations
+- Can be in your main OIM3640 repo or a separate repo
+- Follows a milestone structure: Proposal, Prototype, Core Features, Polish
+- Requires a `PROPOSAL.md`, `README.md`, and `LEARNING_LOG.md`
+- Allows AI assistance but requires you to understand your code and answer questions about it
 
 _Detailed specifications, requirements, and due dates for each mini project will be provided on Canvas and GitHub._
 
@@ -346,4 +345,4 @@ Conflict – especially when working in groups – is a normal, healthy, and exp
 
 ---
 
-*Updated:* *1/16/2026*
+*Updated:* *2/10/2026*
