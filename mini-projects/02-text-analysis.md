@@ -88,6 +88,14 @@ Example: A README with embedded charts showing vocabulary trends across albums, 
 - Data cleaning and normalization
 - Functions and code organization
 
+## The Two-Pass Approach
+
+Complete Milestones 1-2 using **only built-in Python** (strings, lists, dicts, sets, file I/O). No external libraries. This builds real understanding of what's happening under the hood.
+
+Then in Milestone 3 or the Expanding phase, try redoing parts of your analysis using libraries like `pandas` and `matplotlib`. Compare the experience: What was easier? What was harder? What did you learn from doing it "the hard way" first?
+
+Include a brief reflection on this comparison in your README.
+
 ## Expanding Your Project
 
 Already finished the basics? Here are ways to push further:
