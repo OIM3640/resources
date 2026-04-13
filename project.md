@@ -21,19 +21,11 @@ You've already completed three mini projects. This time, you choose the problem,
 
 ---
 
-## 3. Forming a Team
+## 3. Getting Started
 
-- Work **individually** or in a **team of two**.
+- This is an **individual** project.
 - Create a new **public** GitHub repository for this project.
-  - If working in a team: one person owns the repo, the other is a contributor.
-  - List all team member names at the top of `README.md`.
-- **Each team member** must submit the repo URL on Canvas.
-
-### Tips for Teams
-
-- Choose partners based on **shared interests**, not just friendship.
-- Make sure you both want to invest a **similar level of effort**.
-- Agree on how you'll work together (pair programming, dividing tasks, etc.) before you start.
+- Submit the repo URL on Canvas.
 
 ---
 
